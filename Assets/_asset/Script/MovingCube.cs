@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,7 +13,7 @@ public class MovingCube : MonoBehaviour
     [SerializeField]
     private float moveSpeed = 1f;
 
-  
+
     private void OnEnable()
     {
         if (LastCube == null)
@@ -22,7 +22,7 @@ public class MovingCube : MonoBehaviour
         CurrentCube = this;
 
         GetComponent<Renderer>().material.color = GetRandomColor();
-        transform.localScale = new Vector3(LastCube.transform.localScale.x,transform.localScale.y,
+        transform.localScale = new Vector3(LastCube.transform.localScale.x, transform.localScale.y,
             LastCube.transform.localScale.z);
     }
 
@@ -67,7 +67,7 @@ public class MovingCube : MonoBehaviour
 
         LastCube = this;
 
-        
+
     }
 
 
@@ -77,8 +77,8 @@ public class MovingCube : MonoBehaviour
         float FallingBlockSize = transform.localScale.x - NewXSize;
 
         float NewXPosition = LastCube.transform.position.x + (hangover / 2);
-        transform.localScale = new Vector3(NewXSize,transform.localScale.y, transform.localScale.z);
-        transform.position = new Vector3(NewXPosition, transform.position.y, transform.position.z );
+        transform.localScale = new Vector3(NewXSize, transform.localScale.y, transform.localScale.z);
+        transform.position = new Vector3(NewXPosition, transform.position.y, transform.position.z);
 
         float CubeEdge = transform.position.x + (NewXSize / 2f * direction);
         float FallingBlockXPosition = CubeEdge + FallingBlockSize / 2 * direction;
@@ -88,8 +88,8 @@ public class MovingCube : MonoBehaviour
 
     private void SplitCubeOnZ(float hangover, float direction)
     {
-       float NewZSize = LastCube.transform.localScale.z - Mathf.Abs(hangover);
-       float FallingBlockSize = transform.localScale.z - NewZSize;
+        float NewZSize = LastCube.transform.localScale.z - Mathf.Abs(hangover);
+        float FallingBlockSize = transform.localScale.z - NewZSize;
 
         float NewZPosition = LastCube.transform.position.z + (hangover / 2);
         transform.localScale = new Vector3(transform.localScale.x, transform.localScale.y, NewZSize);
@@ -113,8 +113,8 @@ public class MovingCube : MonoBehaviour
 
         else
         {
-            cube.transform.localScale = new Vector3(FallingBlockSize,transform.localScale.y, transform.localScale.z);
-            cube.transform.position = new Vector3(fallingBlockZPosition,transform.position.y, transform.position.z);
+            cube.transform.localScale = new Vector3(FallingBlockSize, transform.localScale.y, transform.localScale.z);
+            cube.transform.position = new Vector3(fallingBlockZPosition, transform.position.y, transform.position.z);
         }
         cube.AddComponent<Rigidbody>();
         cube.GetComponent<Renderer>().material.color = GetComponent<Renderer>().material.color;
@@ -122,7 +122,7 @@ public class MovingCube : MonoBehaviour
         Destroy(cube.gameObject, 1f);
     }
 
-  
+
     // Update is called once per frame
     void Update()
     {

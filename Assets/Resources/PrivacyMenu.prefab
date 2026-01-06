@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1542058983531099
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224364500518061160}
+  - component: {fileID: 114627178983803495}
+  - component: {fileID: 114869199117431722}
+  - component: {fileID: 114000562896318123}
+  m_Layer: 0
+  m_Name: PrivacyMenu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &224364500518061160
+RectTransform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542058983531099}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114627178983803495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542058983531099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -196544911, guid: c60942d1e660ecfd99f70bf3e70222e4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  MainDocument: {fileID: 114869199117431722}
+  ButtonContainer: {fileID: 11400000, guid: f382323108c78e54e85d5c523c15dcb3, type: 2}
+  Settings:
+  - {fileID: 11400000, guid: 77f636cc51740484f9973e045db5d015, type: 2}
+  - {fileID: 11400000, guid: a5188347f5e342f40a9b0263866273c3, type: 2}
+  LoadingTSS:
+  - {fileID: 11400000, guid: f8c4c3a02304bd94fa7f0d46d6118203, type: 2}
+  - {fileID: 11400000, guid: 5458163ccba4c5745895c352f4be80b2, type: 2}
+  LoadingFailureTSS:
+  - {fileID: 11400000, guid: 4b7290b1da9dab64b8c857af583e4f52, type: 2}
+  - {fileID: 11400000, guid: 83e02eca87eaabf4d9cb88365deb1170, type: 2}
+  MainTextTSS:
+  - {fileID: 11400000, guid: a691fa9900cc5dd459fde37115004c4e, type: 2}
+  - {fileID: 11400000, guid: 681c3813b3a994641889c6632c2125f8, type: 2}
+  MenuTSS:
+  - {fileID: 11400000, guid: 6257cc13c4b60094f94695eaad34f0db, type: 2}
+  - {fileID: 11400000, guid: 87ea6bf54d9f55944a0c821716f3c93c, type: 2}
+  WarningPageTSS:
+  - {fileID: 11400000, guid: 237cd83eae382354a82db4c98d796a35, type: 2}
+  - {fileID: 11400000, guid: 3f2dbf50db7858946a8cf4365c914eee, type: 2}
+  RequestResultTSS:
+  - {fileID: 11400000, guid: adf62c5f0f1e7fd4db04b13e6b8acfa6, type: 2}
+  - {fileID: 11400000, guid: a44c5ce7739fe9d4aaa89f92715d0cf7, type: 2}
+  RequestFailureTSS:
+  - {fileID: 11400000, guid: 9d5b7176911994c43af2be55cd0ec2a0, type: 2}
+  - {fileID: 11400000, guid: e5d1b57c3efb14249a04ac1adcdf0a18, type: 2}
+  AppLaunchTSS:
+  - {fileID: 11400000, guid: b0ebccda6eb58f2438582ef047e95563, type: 2}
+  - {fileID: 11400000, guid: 60adf6d37aa5fdc4db3f4a64f749a304, type: 2}
+--- !u!114 &114869199117431722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542058983531099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114000562896318123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542058983531099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1131846440, guid: c60942d1e660ecfd99f70bf3e70222e4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

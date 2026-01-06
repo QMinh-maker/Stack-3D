@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24e50f455f64ffd683e6a92f023694f5, type: 3}
+  m_Name: SoomlaEditorScript
+  m_EditorClassIdentifier:
+  SoomlaSettings:
+    values:
+    - name: SoomlaSecret
+      value: SET ONLY ONCE
+    - name: DebugUnityMessages
+      value: True
+    - name: Soomla.Store.GPlayBP
+      value: False
+    - name: Soomla.Store.AmazonBP
+      value:
+    - name: Soomla.Core.SoomlaSecret
+      value: droplist
+    - name: Soomla.Core.DebugMessages
+      value:
+    - name: Soomla.Core.DebugUnityMessages
+      value: False
+    - name: Soomla.Store.IosSSV
+      value:
+    - name: Soomla.Store.NoneBP
+      value: True
+    - name: Soomla.Store.AndroidPublicKey
+      value:
+    - name: Soomla.Store.AndroidTestPurchases
+      value:
+    - name: Soomla.Store.PlaySsvValidation
+      value:

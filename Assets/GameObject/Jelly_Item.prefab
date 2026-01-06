@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1364948254219404
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4076335715035983}
+  - component: {fileID: 114506093384872386}
+  m_Layer: 0
+  m_Name: Jelly_Item
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4076335715035983
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364948254219404}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114506093384872386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364948254219404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 227c7c2b03271b51da74f0290a78442e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  itemID: Jelly
+  displayName:
+  prefab: {fileID: 1391648343228264, guid: f97feb8c2bd85a54c93409efbdb94a2a, type: 2}
+  lowTierPrefab: {fileID: 0}
+  lowTierGeneration: 0
+  shouldUpdateTextureUV: 0
+  uiFontColor: {r: 1, g: 1, b: 1, a: 1}
+  fixedBackgroundColor: []
+  lightDisabled: 0
+  lightIntencity: 0.1
+  lightAngle: {x: 0, y: 0, z: 0}
+  lightColor: {r: 0, g: 0, b: 0, a: 0}
+  ambientMode: 2
+  ambientIntencity: 1
+  ambientColor:
+  - {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+  ground: {fileID: 1143675377608514, guid: 9ef0b4f39bbb782478daaa36f0d270e6, type: 2}
+  lowTierGround: {fileID: 0}
+  star: {fileID: 0}
+  perfectLine: {fileID: 0}
+  useEdgeIndicator: 0
+  colorSetID: 0
+  shadowIntensity: 1
+  noShadowOnLowDevice: 0
+  useOnlyTopBackgroundColor: 0
+  useStackSizeForDefault: 0
+  cutSoundClip: {fileID: 8300000, guid: 1518257c0b18fb8448d3a7c1b1148cb5, type: 3}
+  resizeSoundClip: {fileID: 8300000, guid: 8d5712db1b94b894e9f649dfb3cf0a43, type: 3}
+  cutPitchArray:
+  - 1.3
+  - 0.9
+  cutSoundVolume: 0.786
+  resizeSoundVolume: 1
+  thumbnail: {fileID: 21300000, guid: 837bb4f82c11c3a47b645822bf30b591, type: 2}

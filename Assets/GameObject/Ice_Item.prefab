@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1454405370517130
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4564597624838028}
+  - component: {fileID: 114865575233204987}
+  m_Layer: 0
+  m_Name: Ice_Item
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4564597624838028
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454405370517130}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114865575233204987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454405370517130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 227c7c2b03271b51da74f0290a78442e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  itemID: Ice
+  displayName:
+  prefab: {fileID: 1508630168245478, guid: f7d09f9bbb7e12f40a0491b2cbd88d5e, type: 2}
+  lowTierPrefab: {fileID: 0}
+  lowTierGeneration: 0
+  shouldUpdateTextureUV: 1
+  uiFontColor: {r: 1, g: 1, b: 1, a: 1}
+  fixedBackgroundColor: []
+  lightDisabled: 0
+  lightIntencity: 0
+  lightAngle: {x: 0, y: 0, z: 0}
+  lightColor: {r: 0.8867924, g: 0.7989498, b: 0.8539519, a: 0}
+  ambientMode: 2
+  ambientIntencity: 1
+  ambientColor: []
+  ground: {fileID: 1832468463201250, guid: e0851c7dfdddfb74dabffa1aa6792898, type: 2}
+  lowTierGround: {fileID: 0}
+  star: {fileID: 1041800717184888, guid: b8910dc45e6d8fe49a17935a11420949, type: 2}
+  perfectLine: {fileID: 0}
+  useEdgeIndicator: 0
+  colorSetID: 9
+  shadowIntensity: 1
+  noShadowOnLowDevice: 0
+  useOnlyTopBackgroundColor: 0
+  useStackSizeForDefault: 1
+  cutSoundClip: {fileID: 8300000, guid: b312a211fa6540e4a92f1409e1ecc497, type: 3}
+  resizeSoundClip: {fileID: 0}
+  cutPitchArray: []
+  cutSoundVolume: 1
+  resizeSoundVolume: 1
+  thumbnail: {fileID: 21300000, guid: 56b4932d193026140896e3ca4d20e6f9, type: 2}

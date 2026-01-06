@@ -1,0 +1,28 @@
+{
+  "translation_texts": [
+    {
+      "text_key": "Title1",
+      "translated_text": "Yaşım:"
+    },
+    {
+      "text_key": "Title2",
+      "translated_text": "Yasal Koşullar ve Gizlilik"
+    },
+    {
+      "text_key": "Slider-text",
+      "translated_text": "Lütfen yaşınızı belirtin. Bu bilgi oynanışı etkilemeyecektir."
+    },
+    {
+      "text_key": "Toggle-text",
+      "translated_text": "On altı yaşını geçmiş olduğumu ve Gizlilik Politikası'nı okuduğumu, anladığımı ve kabul ettiğimi onaylıyorum."
+    },
+    {
+      "text_key": "Confirm-button",
+      "translated_text": "Onayla"
+    },
+    {
+      "text_key": "Links-text",
+      "translated_text": "\"Onayla\" düğmesine dokunarak şunları kabul etmiş olursunuz: <link=\"PrivacyPolicy\"><color=#[COLOR]>Gizlilik Politikası</color></link> ve <link=\"LegalDocument\"><color=#[COLOR]>Kullanım Koşulları</color></link>"
+    }
+  ]
+}

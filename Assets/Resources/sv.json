@@ -1,0 +1,28 @@
+{
+  "translation_texts": [
+    {
+      "text_key": "Title1",
+      "translated_text": "Min ålder är…"
+    },
+    {
+      "text_key": "Title2",
+      "translated_text": "Juridiska villkor och integritet"
+    },
+    {
+      "text_key": "Slider-text",
+      "translated_text": "Ange din ålder. Det påverkar inte spelupplevelsen."
+    },
+    {
+      "text_key": "Toggle-text",
+      "translated_text": "Jag intygar att jag har fyllt 16 år och har läst, förstått och godkänt er integritetspolicy"
+    },
+    {
+      "text_key": "Confirm-button",
+      "translated_text": "Bekräfta"
+    },
+    {
+      "text_key": "Links-text",
+      "translated_text": "Genom att trycka på Bekräfta godkänner du: <link=\"PrivacyPolicy\"><color=#[COLOR]>Vår integritetspolicy</color></link> och <link=\"LegalDocument\"><color=#[COLOR]>våra användarvillkor</color></link>"
+    }
+  ]
+}

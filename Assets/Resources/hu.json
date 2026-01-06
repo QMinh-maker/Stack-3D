@@ -1,0 +1,28 @@
+{
+  "translation_texts": [
+    {
+      "text_key": "Title1",
+      "translated_text": "Ikäni on..."
+    },
+    {
+      "text_key": "Title2",
+      "translated_text": "Oikeudelliset ehdot ja yksityisyys"
+    },
+    {
+      "text_key": "Slider-text",
+      "translated_text": "Kerro meille ikäsi. Se ei vaikuta pelaamiseen."
+    },
+    {
+      "text_key": "Toggle-text",
+      "translated_text": "Vakuutan olevani vähintään kuusitoistavuotias ja vahvistan, että olen lukenut tietosuojakäytäntönne, ymmärrän sen ja hyväksyn sen"
+    },
+    {
+      "text_key": "Confirm-button",
+      "translated_text": "Vahvista"
+    },
+    {
+      "text_key": "Links-text",
+      "translated_text": "Napauttamalla Vahvista osoitat hyväksyväsi <link=\"PrivacyPolicy\"><color=#[COLOR]>tietosuojakäytäntömme</color></link> ja <link=\"LegalDocument\"><color=#[COLOR]>käyttöehtomme</color></link>"
+    }
+  ]
+}

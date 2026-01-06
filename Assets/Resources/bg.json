@@ -1,0 +1,28 @@
+{
+  "translation_texts": [
+    {
+      "text_key": "Title1",
+      "translated_text": "Възрастта ми е…"
+    },
+    {
+      "text_key": "Title2",
+      "translated_text": "Правни условия и поверителност"
+    },
+    {
+      "text_key": "Slider-text",
+      "translated_text": "Моля, кажете ни вашата възраст. Това няма да повлияе на играта."
+    },
+    {
+      "text_key": "Toggle-text",
+      "translated_text": "Удостоверявам, че имам навършени шестнадесет години и че прочетох, разбрах и приех вашата Политика за поверителност"
+    },
+    {
+      "text_key": "Confirm-button",
+      "translated_text": "Потвърждаване"
+    },
+    {
+      "text_key": "Links-text",
+      "translated_text": "Докосвайки „Потвърди“, вие приемате нашите: <link=\"PrivacyPolicy\"><color=#[COLOR]>Политика за поверителност</color></link> и <link=\"LegalDocument\"><color=#[COLOR]>условия за ползване</color></link>"
+    }
+  ]
+}

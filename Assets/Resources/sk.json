@@ -1,0 +1,28 @@
+{
+  "translation_texts": [
+    {
+      "text_key": "Title1",
+      "translated_text": "Môj vek je…"
+    },
+    {
+      "text_key": "Title2",
+      "translated_text": "Právne podmienky a ochrana osobných údajov"
+    },
+    {
+      "text_key": "Slider-text",
+      "translated_text": "Povedzte nám svoj vek. Neovplyvní to hrateľnosť."
+    },
+    {
+      "text_key": "Toggle-text",
+      "translated_text": "Potvrdzujem, že mám šestnásť alebo viac rokov a že som si prečítal/a, porozumel/a a súhlasím s vašimi Zásadami ochrany osobných údajov"
+    },
+    {
+      "text_key": "Confirm-button",
+      "translated_text": "Potvrdiť"
+    },
+    {
+      "text_key": "Links-text",
+      "translated_text": "Klepnutím na tlačidlo „Potvrdiť“ súhlasíte s dokumentom: <link=\"PrivacyPolicy\"><color=#[COLOR]>Zásady ochrany osobných údajov</color></link> a <link=\"LegalDocument\"><color=#[COLOR]>podmienky používania</color></link>"
+    }
+  ]
+}

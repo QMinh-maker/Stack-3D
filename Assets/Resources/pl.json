@@ -1,0 +1,28 @@
+{
+  "translation_texts": [
+    {
+      "text_key": "Title1",
+      "translated_text": "Mam…"
+    },
+    {
+      "text_key": "Title2",
+      "translated_text": "Warunki prawne i prywatność"
+    },
+    {
+      "text_key": "Slider-text",
+      "translated_text": "Podaj swój wiek. Nie wpłynie to na rozgrywkę."
+    },
+    {
+      "text_key": "Toggle-text",
+      "translated_text": "Oświadczam, że mam ukończone szesnaście lat i znam, rozumiem oraz akceptuję politykę prywatności"
+    },
+    {
+      "text_key": "Confirm-button",
+      "translated_text": "Potwierdź"
+    },
+    {
+      "text_key": "Links-text",
+      "translated_text": "Klikając „Potwierdź”, akceptujesz treść następujących dokumentów: <link=\"PrivacyPolicy\"><color=#[COLOR]>Polityka prywatności</color></link> i <link=\"LegalDocument\"><color=#[COLOR]>warunki korzystania z usługi</color></link>"
+    }
+  ]
+}

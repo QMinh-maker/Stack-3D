@@ -1,0 +1,28 @@
+{
+  "translation_texts": [
+    {
+      "text_key": "Title1",
+      "translated_text": "Min alder ..."
+    },
+    {
+      "text_key": "Title2",
+      "translated_text": "Juridiske vilkår og beskyttelse af personlige oplysninger"
+    },
+    {
+      "text_key": "Slider-text",
+      "translated_text": "Angiv din alder. Dette påvirker ikke spillet."
+    },
+    {
+      "text_key": "Toggle-text",
+      "translated_text": "Jeg bekræfter, at jeg er 16 år eller ældre, og at jeg har læst, forstået og accepteret jeres fortrolighedspolitik"
+    },
+    {
+      "text_key": "Confirm-button",
+      "translated_text": "Bekræft"
+    },
+    {
+      "text_key": "Links-text",
+      "translated_text": "Ved at trykke på \"Bekræft\", accepterer du vores: <link=\"PrivacyPolicy\"><color=#[COLOR]>Fortrolighedspolitik</color></link> og <link=\"LegalDocument\"><color=#[COLOR]>brugsvilkår</color></link>"
+    }
+  ]
+}

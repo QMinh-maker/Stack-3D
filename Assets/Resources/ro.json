@@ -1,0 +1,28 @@
+{
+  "translation_texts": [
+    {
+      "text_key": "Title1",
+      "translated_text": "Vârsta mea este…"
+    },
+    {
+      "text_key": "Title2",
+      "translated_text": "Termeni legali și confidențialitate"
+    },
+    {
+      "text_key": "Slider-text",
+      "translated_text": "Spune-ne vârsta ta. Acest lucru nu va afecta jocul."
+    },
+    {
+      "text_key": "Toggle-text",
+      "translated_text": "Certific că am șaisprezece ani sau peste și am citit, am înțeles și am acceptat Politica de confidențialitate"
+    },
+    {
+      "text_key": "Confirm-button",
+      "translated_text": "Confirmă"
+    },
+    {
+      "text_key": "Links-text",
+      "translated_text": "Atingând „Confirmați”, accepți: <link=\"PrivacyPolicy\"><color=#[COLOR]>Politica de confidențialitate</color></link> și <link=\"LegalDocument\"><color=#[COLOR]>Termenii de utilizare</color></link>"
+    }
+  ]
+}

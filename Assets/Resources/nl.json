@@ -1,0 +1,28 @@
+{
+  "translation_texts": [
+    {
+      "text_key": "Title1",
+      "translated_text": "Mijn leeftijd is..."
+    },
+    {
+      "text_key": "Title2",
+      "translated_text": "Juridische voorwaarden en privacy"
+    },
+    {
+      "text_key": "Slider-text",
+      "translated_text": "Geef je leeftijd aan. Dit heeft geen gevolgen voor de gameplay."
+    },
+    {
+      "text_key": "Toggle-text",
+      "translated_text": "Ik verklaar dat ik zestien jaar of ouder ben en dat ik jullie privacybeleid heb gelezen, begrepen en geaccepteerd"
+    },
+    {
+      "text_key": "Confirm-button",
+      "translated_text": "Bevestigen"
+    },
+    {
+      "text_key": "Links-text",
+      "translated_text": "Door op \"Bevestigen\" te drukken, ga je akkoord met onze: <link=\"PrivacyPolicy\"><color=#[COLOR]>Privacyverklaring</color></link> en <link=\"LegalDocument\"><color=#[COLOR]>gebruiksvoorwaarden</color></link>"
+    }
+  ]
+}

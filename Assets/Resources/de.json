@@ -1,0 +1,28 @@
+{
+  "translation_texts": [
+    {
+      "text_key": "Title1",
+      "translated_text": "Ich bin …"
+    },
+    {
+      "text_key": "Title2",
+      "translated_text": "Rechtliche Hinweise und Datenschutz"
+    },
+    {
+      "text_key": "Slider-text",
+      "translated_text": "Bitte teilen Sie uns Ihr Alter mit. Dies hat keinen Einfluss auf das Spielerlebnis."
+    },
+    {
+      "text_key": "Toggle-text",
+      "translated_text": "Ich bestätige, dass ich 16 Jahre oder älter bin und Ihre Datenschutzrichtlinie gelesen, verstanden und akzeptiert habe."
+    },
+    {
+      "text_key": "Confirm-button",
+      "translated_text": "Bestätigen"
+    },
+    {
+      "text_key": "Links-text",
+      "translated_text": "Durch Tippen auf „Bestätigen“ akzeptieren Sie unsere: <link=\"PrivacyPolicy\"><color=#[COLOR]>Datenschutzrichtlinie</color></link> und <link=\"LegalDocument\"><color=#[COLOR]>Nutzungsbedingungen</color></link>"
+    }
+  ]
+}

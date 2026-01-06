@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1547976552567734
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4186297078630730}
+  - component: {fileID: 114384954186316945}
+  m_Layer: 0
+  m_Name: Lego_Item
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4186297078630730
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547976552567734}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114384954186316945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547976552567734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 227c7c2b03271b51da74f0290a78442e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  itemID: Toy
+  displayName:
+  prefab: {fileID: 1895312355402293, guid: 7596fd53f9df7604d87b3c13e5a3a968, type: 2}
+  lowTierPrefab: {fileID: 0}
+  lowTierGeneration: 0
+  shouldUpdateTextureUV: 1
+  uiFontColor: {r: 1, g: 1, b: 1, a: 1}
+  fixedBackgroundColor: []
+  lightDisabled: 0
+  lightIntencity: 0
+  lightAngle: {x: 0, y: 0, z: 0}
+  lightColor: {r: 0, g: 0, b: 0, a: 0}
+  ambientMode: 2
+  ambientIntencity: 1
+  ambientColor: []
+  ground: {fileID: 1832468463201250, guid: e0851c7dfdddfb74dabffa1aa6792898, type: 2}
+  lowTierGround: {fileID: 0}
+  star: {fileID: 0}
+  perfectLine: {fileID: 0}
+  useEdgeIndicator: 0
+  colorSetID: 12
+  shadowIntensity: 1
+  noShadowOnLowDevice: 0
+  useOnlyTopBackgroundColor: 0
+  useStackSizeForDefault: 1
+  cutSoundClip: {fileID: 0}
+  resizeSoundClip: {fileID: 0}
+  cutPitchArray: []
+  cutSoundVolume: 1
+  resizeSoundVolume: 1
+  thumbnail: {fileID: 21300000, guid: 27f3ed330067b644bb9a9a3a3a69aaca, type: 2}

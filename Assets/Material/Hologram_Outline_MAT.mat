@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hologram_Outline_MAT
+  m_Shader: {fileID: 4800000, guid: 0fb899f6f00b4e541952f853868fef33, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _ALPHAPREMULTIPLY_ON
+  - _EMISSION
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: ea7736cec03fb8e4fb42b0417ab1a8d0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: ea7736cec03fb8e4fb42b0417ab1a8d0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _RoughnessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _Alpha: 0.7
+      _BumpDepth: 1
+      _BumpScale: 1
+      _Coat: 0
+      _CoatSmooth: 12
+      _Cutoff: 0.468
+      _DetailNormalMapScale: 1
+      _DstBlend: 10
+      _EdgeThickness: 1
+      _Emission: 0
+      _EmissionStrength: 0.7
+      _EnvironmentLight: 2
+      _Float0: 0
+      _GlossMapScale: 1
+      _Glossiness: 0
+      _GlossyReflections: 1
+      _Metallic: 0
+      _Metallicity: 0
+      _Mode: 3
+      _OcclusionStrength: 1
+      _OutlineWidth: 0.0184
+      _Parallax: 0.02
+      _ReflectionStrength: 2
+      _SensitivityDepth: 1
+      _SensitivityNormals: 1
+      _Shininess: 0.078125
+      _Smoothness: 2
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SquashAmount: 1
+      _SrcBlend: 1
+      _TransAmbient: 0.2
+      _TransDirect: 1
+      _TransNormalDistortion: 0.1
+      _TransScattering: 2
+      _TransShadow: 0.9
+      _Translucency: 1
+      _UVSec: 0
+      _Wrap: 0.25
+      _ZWrite: 0
+      __dirty: 0
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 0.3882353}
+      _Color0: {r: 1, g: 0.3066038, b: 0.3066038, a: 0.49803922}
+      _EdgeColor: {r: 0, g: 0, b: 0, a: 1}
+      _EmissionColor: {r: 0.6754716, g: 0.6754716, b: 0.6754716, a: 1}
+      _EmissiveColor: {r: 0, g: 0, b: 0, a: 0}
+      _MainColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+      _OutlineColor: {r: 1, g: 0.08528899, b: 0, a: 1}
+      _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
+      _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

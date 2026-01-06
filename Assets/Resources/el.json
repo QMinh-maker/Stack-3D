@@ -1,0 +1,28 @@
+{
+  "translation_texts": [
+    {
+      "text_key": "Title1",
+      "translated_text": "Η ηλικία μου είναι…"
+    },
+    {
+      "text_key": "Title2",
+      "translated_text": "Νομικοί Όροι και Απόρρητο"
+    },
+    {
+      "text_key": "Slider-text",
+      "translated_text": "Πείτε μας την ηλικία σας. Αυτό δεν θα επηρεάσει το παιχνίδι."
+    },
+    {
+      "text_key": "Toggle-text",
+      "translated_text": "Βεβαιώνω ότι είμαι δεκαέξι ετών ή μεγαλύτερος και έχω διαβάσει, κατανοήσει και αποδεχτεί την Πολιτική Απορρήτου σας"
+    },
+    {
+      "text_key": "Confirm-button",
+      "translated_text": "Επιβεβαίωση"
+    },
+    {
+      "text_key": "Links-text",
+      "translated_text": "Πατώντας \"Επιβεβαίωση\", αποδέχεστε τα εξής: <link=\"PrivacyPolicy\"><color=#[COLOR]>Πολιτική Απορρήτου</color></link> και  <link=\"LegalDocument\"><color=#[COLOR]>Όροι Χρήσης</color></link>"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "translation_texts": [
+    {
+      "text_key": "Title1",
+      "translated_text": "Star sem …"
+    },
+    {
+      "text_key": "Title2",
+      "translated_text": "Pravni pogoji in zasebnost"
+    },
+    {
+      "text_key": "Slider-text",
+      "translated_text": "Povejte nam svojo starost. To ne bo vplivalo na igranje."
+    },
+    {
+      "text_key": "Toggle-text",
+      "translated_text": "Potrjujem, da sem star vsaj šestnajst let in da sem prebral, razumel ter sprejel vaš pravilnik o zasebnosti."
+    },
+    {
+      "text_key": "Confirm-button",
+      "translated_text": "Potrdi"
+    },
+    {
+      "text_key": "Links-text",
+      "translated_text": "Če pritisnete »Potrdi«, sprejemate naše: <link=\"PrivacyPolicy\"><color=#[COLOR]>Pravilnik o zasebnosti</color></link> in <link=\"LegalDocument\"><color=#[COLOR]>pogoji uporabe</color></link>"
+    }
+  ]
+}

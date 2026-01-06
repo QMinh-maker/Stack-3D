@@ -1,0 +1,28 @@
+{
+  "translation_texts": [
+    {
+      "text_key": "Title1",
+      "translated_text": "Mans vecums ir…"
+    },
+    {
+      "text_key": "Title2",
+      "translated_text": "Juridiskie noteikumi un privātums"
+    },
+    {
+      "text_key": "Slider-text",
+      "translated_text": "Lūdzu, pasakiet mums, cik jums gadu. Tas neietekmēs spēli."
+    },
+    {
+      "text_key": "Toggle-text",
+      "translated_text": "Es apliecinu, ka man ir sešpadsmit vai vairāk gadu, un esmu izlasījis, sapratis un pieņēmis jūsu Privātuma politiku"
+    },
+    {
+      "text_key": "Confirm-button",
+      "translated_text": "Apstiprināt"
+    },
+    {
+      "text_key": "Links-text",
+      "translated_text": "Pieskaroties \"Apstiprināt\", jūs piekrītat mūsu: <link=\"PrivacyPolicy\"><color=#[COLOR]>Privātuma politikai</color></link> un <link=\"LegalDocument\"><color=#[COLOR]>lietošanas noteikumiem</color></link>"
+    }
+  ]
+}

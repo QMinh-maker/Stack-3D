@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1181323337621499
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4915853415398893}
+  - component: {fileID: 114357915997508514}
+  - component: {fileID: 114365781414121490}
+  - component: {fileID: 114585159766601020}
+  m_Layer: 0
+  m_Name: AgeGate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4915853415398893
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181323337621499}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114357915997508514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181323337621499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114365781414121490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181323337621499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 119221219, guid: c60942d1e660ecfd99f70bf3e70222e4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  UIDocument: {fileID: 114357915997508514}
+  _ageGateFullScreen: {fileID: 11400000, guid: 8c40bf588dbbc9f4c831a7ff4f8e1e53, type: 2}
+  _ageGateBox: {fileID: 11400000, guid: fc94573f221391048a21c57cb9162101, type: 2}
+  _ageGateBanner: {fileID: 11400000, guid: 1f8d8dd9086d4264baf7840b8582f122, type: 2}
+  _panelSettingsLandscape: {fileID: 11400000, guid: 212da7f864a7ce441ad381d7c39fba82, type: 2}
+  _panelSettingsPortrait: {fileID: 11400000, guid: 04095a5f42cd40d4aaecce16f5365882, type: 2}
+  _panelSettingsBoxLandscape: {fileID: 11400000, guid: 8f8f15ee739971042b5f68a44655d89d, type: 2}
+  _panelSettingsBoxPortrait: {fileID: 11400000, guid: e18855814b946304e8f99f89703c13b8, type: 2}
+--- !u!114 &114585159766601020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181323337621499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1131846440, guid: c60942d1e660ecfd99f70bf3e70222e4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

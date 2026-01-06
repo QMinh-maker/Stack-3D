@@ -1,0 +1,28 @@
+{
+  "translation_texts": [
+    {
+      "text_key": "Title1",
+      "translated_text": "Alderen min er …"
+    },
+    {
+      "text_key": "Title2",
+      "translated_text": "Juridiske vilkår og personvern"
+    },
+    {
+      "text_key": "Slider-text",
+      "translated_text": "Fortell oss hvor gammel du er. Dette påvirker ikke spillopplevelsen."
+    },
+    {
+      "text_key": "Toggle-text",
+      "translated_text": "Jeg bekrefter at jeg har fylt 16 år, og at jeg har lest, forstått og godtatt deres retningslinjer for personvern."
+    },
+    {
+      "text_key": "Confirm-button",
+      "translated_text": "Bekreft"
+    },
+    {
+      "text_key": "Links-text",
+      "translated_text": "Ved å trykke på bekreft, godtar du våre <link=\"PrivacyPolicy\"><color=#[COLOR]>retningslinjer for personvern</color></link> og <link=\"LegalDocument\"><color=#[COLOR]>bruksvilkår</color></link>"
+    }
+  ]
+}

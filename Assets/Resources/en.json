@@ -1,0 +1,56 @@
+{
+  "translation_texts": [
+    {
+      "text_key": "Title1",
+      "translated_text": "My age is…"
+    },
+    {
+      "text_key": "Title2",
+      "translated_text": "Legal Terms and Privacy"
+    },
+    {
+      "text_key": "Slider-text",
+      "translated_text": "Please tell us your age. This will not affect gameplay."
+    },
+    {
+      "text_key": "Toggle-text",
+      "translated_text": "I certify that I am sixteen or over, and have read, understood, and accepted your Privacy Policy"
+    },
+    {
+      "text_key": "Confirm-button",
+      "translated_text": "Confirm"
+    },
+    {
+      "text_key": "Links-text",
+      "translated_text": "By tapping \"Confirm\", you accept our: <link=\"PrivacyPolicy\"><color=#[COLOR]>Privacy Policy</color></link> and <link=\"LegalDocument\"><color=#[COLOR]>Terms of Use</color></link>"
+    },
+    {
+      "text_key": "Loading_key",
+      "translated_text": "LOADING..."
+    },
+    {
+      "text_key": "BackButton_key",
+      "translated_text": "Back"
+    },
+    {
+      "text_key": "ServiceUnavailable_key",
+      "translated_text": "<color=#C91E1E><size=40>Oops!</size>\nCheck your connection and try again!</color>\n\nTo access further functionalities, you need to be connected to the internet"
+    },
+    {
+      "text_key": "LegalDocument_key",
+      "translated_text": "Legal Documentation"
+    },
+    {
+      "text_key": "DataDeletionTitle_key",
+      "translated_text": "Data Deletion and Data Copy"
+    },
+    {
+      "text_key": "Reload_key",
+      "translated_text": "Retry"
+    },
+    {
+      "text_key": "LegalPopupKey",
+      "translated_text": "Show Legal Popup"
+    }
+  ]
+}

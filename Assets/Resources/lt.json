@@ -1,0 +1,28 @@
+{
+  "translation_texts": [
+    {
+      "text_key": "Title1",
+      "translated_text": "Mano amžius yra…"
+    },
+    {
+      "text_key": "Title2",
+      "translated_text": "Teisinės sąlygos ir privatumas"
+    },
+    {
+      "text_key": "Slider-text",
+      "translated_text": "Pasakykite mums savo amžių. Tai neturės įtakos žaidimui."
+    },
+    {
+      "text_key": "Toggle-text",
+      "translated_text": "Patvirtinu, kad esu šešiolikos metų ar vyresnis ir perskaičiau, supratau ir sutinku su jūsų privatumo politika"
+    },
+    {
+      "text_key": "Confirm-button",
+      "translated_text": "Patvirtinti"
+    },
+    {
+      "text_key": "Links-text",
+      "translated_text": "Bakstelėdami „Patvirtinti“, sutinkate su mūsų: <link=\"PrivacyPolicy\"><color=#[COLOR]>Privatumo politika</color></link> ir <link=\"LegalDocument\"><color=#[COLOR]>naudojimo sąlygomis</color></link>"
+    }
+  ]
+}

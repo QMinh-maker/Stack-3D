@@ -1,0 +1,28 @@
+{
+  "translation_texts": [
+    {
+      "text_key": "Title1",
+      "translated_text": "Mon âge est…"
+    },
+    {
+      "text_key": "Title2",
+      "translated_text": "Mentions légales et confidentialité"
+    },
+    {
+      "text_key": "Slider-text",
+      "translated_text": "Veuillez indiquer votre âge. Le gameplay ne sera pas affecté."
+    },
+    {
+      "text_key": "Toggle-text",
+      "translated_text": "Je certifie que j’ai seize ans ou plus, que j’ai lu, compris, et accepté votre charte d’utilisation des données personnelle"
+    },
+    {
+      "text_key": "Confirm-button",
+      "translated_text": "Confirmer"
+    },
+    {
+      "text_key": "Links-text",
+      "translated_text": "En appuyant sur “Confirmer”, vous acceptez : </color></link><link=\"PrivacyPolicy\"><color=#[COLOR]>Politique de confidentialité</color></link> et <link=\"LegalDocument\"><color=#[COLOR]>Conditions d'utilisation</color></link>"
+    }
+  ]
+}

@@ -1,0 +1,535 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96bd7617a3c25f5b29297c0b4af26d43, type: 3}
+  m_Name: CVSLang
+  m_EditorClassIdentifier:
+  resourceDirs:
+  - 2_Script/11_Lang
+  resourceIDs: []
+  dontAddPredefinedString: 1
+  readFile: 0
+  languages: 0a000000290000002800000016000000220000001c0000000e00000017000000
+  excludeLanguages:
+  defaultLanguage: 10
+  keys:
+  - bestScore
+  - continue_game
+  - new_record
+  - tap_to_restart
+  - shareFormat
+  - tap_to_start
+  - tutorial
+  - tutorial_gameover
+  - tutorial_tap_to_stop
+  - ok
+  - ad_not_ready
+  - ipa_canceled
+  - ipa_canceled_detail
+  - ipa_error
+  - ipa_error_detail
+  - ipa_purchased
+  - ipa_purchased_detail
+  - ipa_restored
+  - ipa_restored_detail
+  - restore_iap
+  - mission_combo
+  - mission_nocut
+  - mission_perfect_sum
+  - mission_score_sum
+  - misstion_score
+  - tutorial_ar_find
+  - pause_find
+  - ar_not_supported
+  - ar_not_supported_detail
+  - camera_access_require
+  - later
+  - openSettings
+  - back_to_exit_app
+  - expand_platform
+  - keep_playing
+  - buy_extra_lives
+  - use_life
+  - buy_lives
+  - skins
+  - rankings
+  - no_ads
+  - settings
+  - rate_us
+  - common
+  - rare
+  - epic
+  - missions
+  - login
+  - playgames
+  - scoretotal
+  - scoregame
+  - perfect
+  - grow
+  - spendrevive
+  - buyskin
+  datas:
+  - code: 10
+    values:
+    - BEST
+    - Continue
+    - NEW RECORD
+    - TAP TO RESTART
+    - I scored {0} points in #{1}
+    - TAP TO START
+    - HOW TO PLAY
+    - "Too early / Too late\n= Game Over"
+    - Tap to stop
+    - OK
+    - AD is not ready
+    - Canceled
+    - Your purchase was canceled.
+    - Error
+    - Please, try it later.
+    - Purchased
+    - NO ADS has been purchased
+    - Restored
+    - Your purchase has been restored
+    - Restore Purchases
+    - "Make {0} combos\nin a single game"
+    - "Make {0} perfects\nin a single game"
+    - "Make [ {0} / {1} ]\nperfects"
+    - Score [ {0} / {1} ]
+    - "Score {0}\nin a single game"
+    - Find a surface
+    - SEARCHING FOR GROUND
+    - AR mode is not supported on this device.
+    - "Minimum requirements are:\n- iOS 11 or later\n- iPhone 6s or later\n- iPad 2017 or later"
+    - This feature requires camera access
+    - Not Now
+    - Open Settings
+    - Press back again to exit
+    - Expand the plaftorm
+    - Keep playing
+    - +{0} extra lives
+    - Use a life
+    - Buy Lives
+    - Skins
+    - Rankings
+    - No Ads
+    - Settings
+    - Rate us
+    - Common
+    - Rare
+    - Epic
+    - Missions
+    - Log in
+    - Play 3 games
+    - Score 200 in total
+    - Score 60 in a single game
+    - Place perfectly 10 tiles in a row
+    - Extend the platform 8 times
+    - Use extra life
+    - Buy a skin in the shop
+  - code: 41
+    values:
+    - 最高得分
+    - 繼續
+    - 新記錄
+    - 按此重新開始
+    - 在 #{1} 獲得 {0} 分
+    - 按下以開始
+    - 遊戲方法
+    - 太快/太慢 = 遊戲結束
+    - 按下以暫停
+    - OK
+    - 廣告尚未準備好
+    - 取消
+    - 已取消購買
+    - 錯誤
+    - 請稍後再嘗試
+    - 已完成購買
+    - 已成功購買 NO ADS
+    - 購買以修復
+    - 您的購買已經恢復
+    - 回復購買項目
+    - 一次遊戲中連擊 {0} 次
+    - 一次遊戲中達成完美{0}次
+    - 累積 [ {0} / {1} ] 完美
+    - 分數 [ {0} / {1} ]
+    - 一次遊戲裡{0}分
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 再按一次退出
+    - 拓展平台
+    - 繼續玩
+    - +{0} 額外生命
+    - 使用一條生命
+    - 購買生命
+    - 造型
+    - 排行榜
+    - 移除廣告
+    - 設定
+    - 為我們評分
+    - 普通
+    - 稀有
+    - 史詩
+    - 任務
+    - 登入
+    - 玩 3 場遊戲
+    - 總分達到 200
+    - 在單場遊戲中獲得 60 分
+    - 連續完美放置 10 個方塊
+    - 擴展平台 8 次
+    - 使用額外生命
+    - 在商店購買一個造型
+  - code: 40
+    values:
+    - 最佳
+    - 继续
+    - 新的纪录
+    - 点击开始
+    - 我在#{1}里得了 {0}分
+    - 按此开始
+    - 游戏方法
+    - "太快 / 太慢\r\n=游戏结束"
+    - 按此暂停
+    - OK
+    - 广告尚未准备好
+    - 已取消
+    - 您的购买已取消
+    - 错误
+    - 请稍后再试
+    - 已购买
+    - 已购买无广告模式
+    - 已恢复
+    - 您的购买已恢复
+    - 恢复购买项
+    - "一次游戏需要\r\n{0} 次连击"
+    - "一次游戏需要\r\n{0} 次完美"
+    - "需要 [ {0} / {1} ]\r\n次完美"
+    - 分数 [ {0} / {1} ]
+    - "一次游戏里\r\n{0} 分"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 再按一次退出
+    - 拓展平台
+    - 继续玩
+    - +{0} 额外生命
+    - 使用一條生命
+    - 购买生命
+    - 皮肤
+    - 排行榜
+    - 去除广告
+    - 设置
+    - 为我们评分
+    - 普通
+    - 稀有
+    - 史诗
+    - 任务
+    - 登录
+    - 玩 3 局游戏
+    - 总分达到 200
+    - 在单局游戏中获得 60 分
+    - 连续完美放置 10 个方块
+    - 扩展平台 8 次
+    - 使用额外生命
+    - 在商店购买一个皮肤
+  - code: 22
+    values:
+    - さいこう
+    - 持続する
+    - しんきろく
+    - タップして再スタートする
+    - '#{1}に{0}個のブロックを積みました'
+    - タップする
+    - チュートリアル
+    - "遅く / 早い\r\n= ゲームオーバー"
+    - タップして停止する
+    - はい
+    - 広告の準備ができていません
+    - キャンセル
+    - 購入をキャンセルしました。
+    - エラー
+    - しばらく経ってから、アクセスして下さい。
+    - 購入しました
+    - NO ADSは、既に購入しました。
+    - 復旧されました
+    - キャンセルが中止されました。
+    - 購入項目を復元
+    - コンボ {0}
+    - パーフェクト {0}
+    - "パーフェクト\r\n[ {0} / {1} ]"
+    - スコア [ {0} / {1} ]
+    - スコア {0}
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - もう一度押すと終了します
+    - タイルを拡大する
+    - 続ける
+    - +{0} 追加ライフ
+    - ライフを使おう
+    - ライフ購入
+    - スキン
+    - ランキング
+    - 広告なし
+    - 設定
+    - 評価する
+    - ノーマル
+    - レア
+    - エピック
+    - ミッション
+    - ログイン
+    - ゲームを3回プレイする
+    - 合計スコア200を達成する
+    - 1回のゲームでスコア60を獲得する
+    - 10個のタイルを連続で完璧に配置する
+    - プラットフォームを8回拡張する
+    - エクストラライフを使用する
+    - ショップでスキンを購入する
+  - code: 34
+    values:
+    - RECORD
+    - Continuar
+    - NUEVO RECORD
+    - Tecla para reiniciar
+    - He logrado {0} puntos en #{1}
+    - Toque para iniciar
+    - Tutorial
+    - "Tarde / Temprano\n= Fin del juego"
+    - Toque para detener
+    - OK
+    - el anuncio no está listo
+    - Cancelado
+    - Su compra ha sido cancelada
+    - Error
+    - Gracias por intentarlo de nuevo más tarde
+    - Comprado
+    - NO ADS ha sido comprado.
+    - Restaurado
+    - Su compra ha sido restaurada
+    - Restaurar compras
+    - "haga {0} combos\nen un solo juego"
+    - "haga {0} perfectos\nen un solo juego"
+    - "haga [ {0} / {1} ]\nperfectos"
+    - marque [ {0} / {1} ]
+    - "marque {0}\nen un solo juego"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Pulse atrás de nuevo para salir
+    - Ampliar la plataforma
+    - sigue jugando
+    - +{0} vidas extra
+    - Usar una vida
+    - Comprar vidas
+    - Skins
+    - Clasificación
+    - Sin anuncios
+    - Ajustes
+    - Califícanos
+    - Común
+    - Raro
+    - Epico
+    - Misiones
+    - Iniciar sesión
+    - Jugar 3 partidas
+    - Conseguir 200 puntos en total
+    - Conseguir 60 puntos en una sola partida
+    - Colocar perfectamente 10 fichas seguidas
+    - Extender la plataforma 8 veces
+    - Usar una vida extra
+    - Comprar una skin en la tienda
+  - code: 28
+    values:
+    - MELHOR
+    - Continuar
+    - NOVO RECORDE
+    - Toca para Recomeçar
+    - Eu fiz {0} pontos no #{1}
+    - Toque para começar
+    - Tutorial
+    - "Atrasado / Cedo\n= fim de jogo"
+    - Toque para parar
+    - OK
+    - anúncio não está pronto
+    - Cancelado
+    - A compra foi cancelada
+    - Erro
+    - Erro. Por favor, tenta mais tarde
+    - Comprado
+    - O NO ADS foi comprado
+    - Recuperado
+    - A compra foi recuperada
+    - Restaurar compras
+    - "Faça {0} combos\r\nem um único jogo"
+    - "{0} perfeições\r\nem um único jogo"
+    - "Faça [ {0} / {1} ]\r\nperfeições"
+    - Marque [ {0} / {1} ]
+    - "Marque {0}\r\nem um único jogo"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Pressione novamente para sair
+    - Expandir a plataforma
+    - Continue jogando
+    - +{0} vidas extra
+    - Usar uma vida
+    - Comprar vidas
+    - Skins
+    - Classificação
+    - Sem anúncios
+    - Configurações
+    - Avalie-nos
+    - Comum
+    - Raro
+    - Epico
+    - Missões
+    - Fazer login
+    - Jogar 3 partidas
+    - Marcar 200 pontos no total
+    - Marcar 60 pontos em uma única  partida
+    - Colocar perfeitamente 10 blocos seguidos
+    - Estender a plataforma 8 vezes
+    - Usar vida extra
+    - Comprar uma skin na loja
+  - code: 14
+    values:
+    - RECORD
+    - Continuer
+    - NOUVEAU RECORD
+    - Appuyez pour recommencer
+    - J'ai fait {0} points dans #{1}
+    - Appuyer
+    - Tutoriel
+    - "Trop tôt / Trop tard\r\n= Fin de la partie"
+    - Appuyer pour arrêter
+    - OK
+    - l'annonce n'est pas prête
+    - Annulé
+    - Votre achat a été annulé.
+    - Erreur
+    - Merci d'essayer plus tard.
+    - Acheté
+    - NO ADS a été acheté.
+    - Restauré
+    - Votre achat a été restauré.
+    - Restaurer les achats
+    - "Faire {0} combos\nen une seule partie"
+    - "Faire {0} parfaits\nen une seule partie"
+    - "Faire [ {0} / {1} ]\nparfaits"
+    - "Faire un score\nde [ {0} / {1} ]"
+    - "Faire un score de {0}\nen une seule partie"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Appuyez à nouveau pour quitter
+    - Élargir la plateforme
+    - Continuez à jouer
+    - +{0} vies supplémentaires
+    - Utiliser une vie
+    - Acheter des vies
+    - Skins
+    - Classement
+    - Sans pubs
+    - Options
+    - Notez-nous
+    - Commun
+    - Rare
+    - Epique
+    - Missions
+    - Se connecter
+    - Jouer 3 parties
+    - Atteindre un score total de 200
+    - Faire 60 points en une seule partie
+    - Placer parfaitement 10 blocs d'affilée
+    - Étendre la plateforme 8 fois
+    - Utiliser une vie supplémentaire
+    - Acheter un skin dans la boutique
+  - code: 23
+    values:
+    - 최고점수
+    - 계속하기
+    - 신기록
+    - 탭하여 다시 시작
+    - '#{1}에서 {0}개의 블럭을 쌓았습니다.'
+    - 터치하여 시작
+    - 게임방법
+    - "너무 일찍 / 늦게\r\n=게임오버"
+    - 탭하여 멈추기
+    - 확인
+    - 현재 광고가 없습니다.
+    - 취소
+    - 구매를 취소 했습니다.
+    - 에러
+    - 나중에 다시 시도하세요.
+    - 중복
+    - NO ADS를 이미 구매 했습니다.
+    - 복구
+    - 구매가 복구 되었습니다.
+    - 구매항목복원
+    - "한 게임에서\r\n콤보 {0}회"
+    - "한 게임에서\r\n완벽하게 {0}회 쌓기"
+    - "완벽하게 [ {0} / {1} ]\r\n쌓기 (누적)"
+    - "누적점수\r\n[ {0} / {1} ]"
+    - "한 게임에서\r\n{0}점 달성"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 종료하려면 뒤로를 다시 누르세요.
+    - 다음 타일이 늘어남
+    - 계속 플레이 하세요
+    - +{0} 추가 생명
+    - 생명 사용
+    - 생명력 구매
+    - 스킨
+    - 랭킹
+    - 광고 제거
+    - 설정
+    - 평가하기
+    - 일반
+    - 희귀
+    - 에픽
+    - 미션
+    - 로그인
+    - 게임 3회 플레이
+    - 총점 200점 달성
+    - 한 게임에서 60점 달성
+    - 타일을 연속으로 10번 완벽하게 놓기
+    - 플랫폼을 8회 확장하기
+    - 추가 생명 사용하기
+    - 상점에서 스킨 구매하기

@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Gemstone_MAT
+  m_Shader: {fileID: 4800000, guid: 0fb899f6f00b4e541952f853868fef33, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _EMISSION
+  - _NORMALMAP
+  - _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: e7629a1cbd737024aaaaaccc1659ddd7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5f831fb76b140e44fb4f1ab41ad3d225, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _NormalMap:
+        m_Texture: {fileID: 2800000, guid: d706a88f581c8ce42ab663580aded6c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _RoughnessMap:
+        m_Texture: {fileID: 2800000, guid: 4a5451381c84cf94e9eadbb49f607c4c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _EmissionStrength: 0.362
+      _EnvironmentLight: 1.708
+      _Float0: 9.59
+      _FresnelPower: 10
+      _GlossMapScale: 0.898
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _Metallic: 0
+      _Mode: 0
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _ReflectionStrength: 0.613
+      _SmoothnessTextureChannel: 1
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _UVSec: 0
+      _ZWrite: 1
+      __dirty: 0
+    m_Colors:
+      _Color: {r: 0.52272224, g: 0.38714847, b: 0.9433962, a: 1}
+      _Color0: {r: 0.073584795, g: 0.7428388, b: 1, a: 0}
+      _EmissionColor: {r: 0.3679245, g: 0.2481755, b: 0.2866662, a: 1}
+      _FresnelColor: {r: 0.2754717, g: 0.2754717, b: 0.2754717, a: 0}
+      _ReflectColor: {r: 0.2924528, g: 0.2924528, b: 0.2924528, a: 0.39607844}
+  m_BuildTextureStacks: []

@@ -1,0 +1,28 @@
+{
+  "translation_texts": [
+    {
+      "text_key": "Title1",
+      "translated_text": "Minu vanus on…"
+    },
+    {
+      "text_key": "Title2",
+      "translated_text": "Juriidilised tingimused ja privaatsus"
+    },
+    {
+      "text_key": "Slider-text",
+      "translated_text": "Palun kinnita oma vanus. See ei mõjuta mängukogemust."
+    },
+    {
+      "text_key": "Toggle-text",
+      "translated_text": "Kinnitan, et olen vähemalt kuusteist aastat vana ning olen privaatsuspoliitika läbi lugenud, sellest aru saanud ja sellega nõustunud"
+    },
+    {
+      "text_key": "Confirm-button",
+      "translated_text": "Kinnita"
+    },
+    {
+      "text_key": "Links-text",
+      "translated_text": "Vajutades „Kinnita“, nõustud meie dokumendiga: <link=\"PrivacyPolicy\"><color=#[COLOR]>Privaatsuspoliitika</color></link> ja <link=\"LegalDocument\"><color=#[COLOR]>kasutustingimused</color></link>"
+    }
+  ]
+}

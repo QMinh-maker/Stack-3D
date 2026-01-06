@@ -1,0 +1,1712 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1036176705, guid: 7a4be55087f06bf10246e5ce90f5db00, type: 3}
+  m_Name: KetchappSettings
+  m_EditorClassIdentifier:
+  StudioName: KCHLAB
+  GameName: Stack
+  GameId: 519
+  MayoVersion: 1.9.3
+  IosConfiguration:
+    FacebookAppId: 1689955407947070
+    FacebookAppClientToken: 37ce6bec8588229425d2866b79dab0f3
+    GameAnalyticsSecretKey: 7f7eda09e63ed165993e867b7dcd8363475af07d
+    GameAnalyticsGameKey: 2c6615898684b9e6442547daf7c90844
+    MediationAppId: 7ea6e795
+    MediationName: IronSource
+    AdMobAppId: ca-app-pub-3528493407894382~2029705554
+    AppOpenId:
+    RewardedVideoId: ancjfxcibm9z1w2l
+    InterstitialId: zb6bwy0vxvq3item
+    BannerId: cllx4xxttjujs8bh
+    AppsflyerApiKey: YoiUUBJvvVVt68rQ5ppyCQ
+    AppsFlyerAppid: 1080487957
+    CrossPromotionBundle: com.ketchapp.stack
+    APSAppId: 8da8de46-dbf4-472d-90a9-3b3c0b3b0415
+    APSBannerId: aaf7c02b-24b8-474d-99a7-686896195d75
+    APSTabletBannerId: Undefined
+    APSInterstitialId: bb0f34a6-620a-4a02-be89-a8a87bc58a10
+    APSRewardedVideoId: 904ddc66-f79d-43aa-b7cf-7887f589b44a
+    BundleId: com.ketchapp.stack
+    UsercentricsRulesetId: -_choNtA2sbiv7
+    AndroidManifestValues: []
+    GradleValues: []
+    SdkList:
+    - ToolId: 5
+      Version: 8.8.0.0
+      Name: IronSource
+      Extension: unitypackage
+      ToolVersionId: 1105
+      Changelog:
+      Type: 2
+      PackageType: 1
+      PluginPaths:
+      - IronSource
+      FilesToRemove: []
+      IsPreview: 0
+      PreviewIncrement: 5
+      UnityPackageRegistryName: com.ketchapp.ironsource
+      UnityPackageRegistryVersion: 8.8.0
+      SDKRegistry:
+        RegistryName: Ketchapp Third Party
+        RegistryUrl: https://pkgs.dev.azure.com/ketchapp/KetchappMayo_Deploy/_packaging/ketchapp-thirdparty-prod/npm/registry/
+        Scopes:
+        - com.ketchapp
+      IsHotfix: 0
+      HotfixIncrement: 0
+    - ToolId: 8
+      Version: 6.15.3.0
+      Name: AppsFlyer
+      Extension: unitypackage
+      ToolVersionId: 1094
+      Changelog:
+      Type: 3
+      PackageType: 1
+      PluginPaths:
+      - AppsFlyer/AppsFlyerObject.prefab
+      - AppsFlyer/Plugins/iOS/AppsFlyerAttribution.m
+      - AppsFlyer/Plugins/iOS/AppsFlyeriOSWrapper.h
+      - AppsFlyer/AppsFlyerAndroid.cs
+      - AppsFlyer/Plugins/iOS/AFUnityUtils.mm
+      - AppsFlyer/Tests/Tests_Suite.cs
+      - AppsFlyer/Tests/Tests.asmdef
+      - AppsFlyer/AppsFlyerObjectScript.cs
+      - AppsFlyer/AppsFlyer.asmdef
+      - AppsFlyer/Plugins/iOS/AppsFlyeriOSWrapper.mm
+      - AppsFlyer/Plugins/iOS/AppsFlyerAppController.mm
+      - AppsFlyer/Tests/System.Runtime.CompilerServices.Unsafe.dll
+      - AppsFlyer/AFInAppEvents.cs
+      - AppsFlyer/IAppsFlyerNativeBridge.cs
+      - AppsFlyer/AppsFlyer.cs
+      - AppsFlyer/Plugins/iOS/AFUnityUtils.h
+      - AppsFlyer/IAppsFlyerUserInvite.cs
+      - AppsFlyer/IAppsFlyerValidateReceipt.cs
+      - AppsFlyer/Tests/NSubstitute.dll
+      - AppsFlyer/IAppsFlyerIOSBridge.cs
+      - AppsFlyer/Plugins/iOS/AppsFlyer+AppController.m
+      - AppsFlyer/Tests/Castle.Core.dll
+      - AppsFlyer/Plugins/iOS/AppsFlyerAttribution.h
+      - AppsFlyer/Editor/AppsFlyerDependencies.xml
+      - AppsFlyer/AppsFlyerEventArgs.cs
+      - AppsFlyer/package.json
+      - AppsFlyer/AppsFlyerConsent.cs
+      - AppsFlyer/AppsFlyeriOS.cs
+      - AppsFlyer/AFMiniJSON.cs
+      - AppsFlyer/Editor/appsflyer_logo.png
+      - AppsFlyer/IAppsFlyerAndroidBridge.cs
+      - AppsFlyer/Editor/AppsFlyer.Editor.asmdef
+      - AppsFlyer/Editor/AppsFlyerObjectEditor.cs
+      - AppsFlyer/IAppsFlyerConversionData.cs
+      - AppsFlyer/Tests/System.Threading.Tasks.Extensions.dll
+      - AppsFlyer
+      FilesToRemove: []
+      IsPreview: 0
+      PreviewIncrement: 1
+      UnityPackageRegistryName: com.ketchapp.appsflyer
+      UnityPackageRegistryVersion: 6.15.3
+      SDKRegistry:
+        RegistryName: Ketchapp Third Party
+        RegistryUrl: https://pkgs.dev.azure.com/ketchapp/KetchappMayo_Deploy/_packaging/ketchapp-thirdparty-prod/npm/registry/
+        Scopes:
+        - com.ketchapp
+      IsHotfix: 0
+      HotfixIncrement: 0
+    - ToolId: 28
+      Version: 2.1.0.0
+      Name: AppsFlyer purchase SDK connector
+      Extension: unitypackage
+      ToolVersionId: 1095
+      Changelog:
+      Type: 3
+      PackageType: 1
+      PluginPaths:
+      - AppsFlyer/AppsFlyerPurchaseConnector.cs
+      - AppsFlyer/Plugins/iOS/AppsFlyerPurchaseiOSWrapper.h
+      - AppsFlyer/Plugins/iOS/AppsFlyerPurchaseiOSWrapper.mm
+      - AppsFlyer/ProductPurchase.cs
+      - AppsFlyer/IAppsFlyerPurchaseValidation.cs
+      - AppsFlyer/Editor/AppsFlyerPurchaseConnectorDependencies.xml
+      FilesToRemove: []
+      IsPreview: 0
+      PreviewIncrement: 1
+      UnityPackageRegistryName: com.ketchapp.appsflyerpurchasesdkconnector
+      UnityPackageRegistryVersion: 2.1.0
+      SDKRegistry:
+        RegistryName: Ketchapp Third Party
+        RegistryUrl: https://pkgs.dev.azure.com/ketchapp/KetchappMayo_Deploy/_packaging/ketchapp-thirdparty-prod/npm/registry/
+        Scopes:
+        - com.ketchapp
+      IsHotfix: 0
+      HotfixIncrement: 0
+    - ToolId: 9
+      Version: 17.0.1.1
+      Name: FacebookSDK
+      Extension: unitypackage
+      ToolVersionId: 1093
+      Changelog:
+      Type: 3
+      PackageType: 1
+      PluginPaths:
+      - FacebookSDK/Plugins/Canvas/CanvasJSSDKBindings.jslib
+      - FacebookSDK/Plugins/Facebook.Unity.dll
+      - FacebookSDK/Plugins/Editor/Facebook.Unity.Editor.dll
+      - FacebookSDK/Plugins/Editor/Dependencies.xml
+      - FacebookSDK/Plugins/Android/libs/facebook-android-wrapper-11.0.0.aar
+      - FacebookSDK/SDK/Editor/iOS/Swift/FBSDKTournament.swift
+      - FacebookSDK/SDK/Editor/iOS/FBUnityInterface.mm
+      - FacebookSDK/SDK/Editor/iOS/FBUnityInterface.h
+      - FacebookSDK/Plugins/iOS/Facebook.Unity.IOS.dll
+      - FacebookSDK/link.xml
+      - FacebookSDK/SDK/Editor/iOS/FBUnityUtility.mm
+      - FacebookSDK/SDK/Editor/iOS/FBSDK+Internal.h
+      - FacebookSDK/SDK/Editor/iOS/FBUnitySDKDelegate.h
+      - FacebookSDK/SDK/Editor/iOS/Swift/FBSDKTournamentFetcher.swift
+      - FacebookSDK/SDK/Editor/iOS/Swift/FBSDKTournamentUpdater.swift
+      - FacebookSDK/SDK/Editor/iOS/fixup.projmods
+      - FacebookSDK/SDK/Editor/iOS/FBUnityUtility.h
+      - FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll
+      - FacebookSDK/Plugins/Canvas/Facebook.Unity.Canvas.dll
+      - FacebookSDK/SDK/Editor/iOS/Swift/FBSDKShareTournamentDialog.swift
+      - FacebookSDK/Plugins/Android/Facebook.Unity.Android.dll
+      - FacebookSDK/SDK/Editor/iOS/FBUnitySDKDelegate.m
+      - FacebookSDK/Plugins/Android/libs/facebook-android-wrapper-17.0.1.aar
+      - FacebookSDK.meta
+      - FacebookSDK
+      - FacebookSDK/Plugins
+      - FacebookSDK/Plugins.meta
+      - FacebookSDK/Plugins/Android
+      - FacebookSDK/Plugins/Android.meta
+      - FacebookSDK/Plugins/Android/libs
+      - FacebookSDK/Plugins/Android/libs.meta
+      - FacebookSDK/Plugins/Canvas
+      - FacebookSDK/Plugins/Canvas.meta
+      - FacebookSDK/Plugins/Editor
+      - FacebookSDK/Plugins/Editor.meta
+      - FacebookSDK/Plugins/iOS.meta
+      - FacebookSDK/Plugins/iOS
+      - FacebookSDK/Plugins/Settings.meta
+      - FacebookSDK/Plugins/Settings
+      - FacebookSDK/SDK
+      - FacebookSDK/SDK/Editor
+      - FacebookSDK/SDK.meta
+      - FacebookSDK/SDK/Editor.meta
+      - FacebookSDK/SDK/Editor/iOS
+      - FacebookSDK/SDK/Editor/iOS/Swift
+      - FacebookSDK/SDK/Editor/iOS/Swift.meta
+      - FacebookSDK/SDK/Editor/iOS.meta
+      FilesToRemove: []
+      IsPreview: 0
+      PreviewIncrement: 1
+      UnityPackageRegistryName: com.ketchapp.facebooksdk
+      UnityPackageRegistryVersion: 17.0.1-hotfix.1
+      SDKRegistry:
+        RegistryName: Ketchapp Third Party
+        RegistryUrl: https://pkgs.dev.azure.com/ketchapp/KetchappMayo_Deploy/_packaging/ketchapp-thirdparty-prod/npm/registry/
+        Scopes:
+        - com.ketchapp
+      IsHotfix: 1
+      HotfixIncrement: 1
+    - ToolId: 24
+      Version: 11.9.0.0
+      Name: Firebase Analytics
+      Extension: unitypackage
+      ToolVersionId: 1051
+      Changelog:
+      Type: 3
+      PackageType: 1
+      PluginPaths:
+      - Firebase
+      FilesToRemove: []
+      IsPreview: 0
+      PreviewIncrement: 1
+      UnityPackageRegistryName: com.ketchapp.firebaseanalytics
+      UnityPackageRegistryVersion: 11.9.0
+      SDKRegistry:
+        RegistryName: Ketchapp Third Party
+        RegistryUrl: https://pkgs.dev.azure.com/ketchapp/KetchappMayo_Deploy/_packaging/ketchapp-thirdparty-prod/npm/registry/
+        Scopes:
+        - com.ketchapp
+      IsHotfix: 0
+      HotfixIncrement: 0
+    - ToolId: 7
+      Version: 7.10.4.0
+      Name: GameAnalytics
+      Extension: unitypackage
+      ToolVersionId: 1097
+      Changelog:
+      Type: 3
+      PackageType: 1
+      PluginPaths:
+      - GameAnalytics
+      FilesToRemove: []
+      IsPreview: 0
+      PreviewIncrement: 1
+      UnityPackageRegistryName: com.ketchapp.gameanalytics
+      UnityPackageRegistryVersion: 7.10.4
+      SDKRegistry:
+        RegistryName: Ketchapp Third Party
+        RegistryUrl: https://pkgs.dev.azure.com/ketchapp/KetchappMayo_Deploy/_packaging/ketchapp-thirdparty-prod/npm/registry/
+        Scopes:
+        - com.ketchapp
+      IsHotfix: 0
+      HotfixIncrement: 0
+    - ToolId: 30
+      Version: 2.15.6.0
+      Name: Usercentrics
+      Extension: unitypackage
+      ToolVersionId: 1079
+      Changelog:
+      Type: 3
+      PackageType: 1
+      PluginPaths: []
+      FilesToRemove: []
+      IsPreview: 0
+      PreviewIncrement: 1
+      UnityPackageRegistryName: com.ketchapp.usercentrics
+      UnityPackageRegistryVersion: 2.15.6
+      SDKRegistry:
+        RegistryName: Ketchapp Third Party
+        RegistryUrl: https://pkgs.dev.azure.com/ketchapp/KetchappMayo_Deploy/_packaging/ketchapp-thirdparty-prod/npm/registry/
+        Scopes:
+        - com.ketchapp
+      IsHotfix: 0
+      HotfixIncrement: 0
+    - ToolId: 31
+      Version: 1.9.1.0
+      Name: Amazon Publisher Services SDK
+      Extension: unitypackage
+      ToolVersionId: 1076
+      Changelog:
+      Type: 4
+      PackageType: 1
+      PluginPaths: []
+      FilesToRemove: []
+      IsPreview: 0
+      PreviewIncrement: 1
+      UnityPackageRegistryName: com.ketchapp.amazonpublisherservicessdk
+      UnityPackageRegistryVersion: 1.9.1
+      SDKRegistry:
+        RegistryName: Ketchapp Third Party
+        RegistryUrl: https://pkgs.dev.azure.com/ketchapp/KetchappMayo_Deploy/_packaging/ketchapp-thirdparty-prod/npm/registry/
+        Scopes:
+        - com.ketchapp
+      IsHotfix: 0
+      HotfixIncrement: 0
+    - ToolId: 10
+      Version: 1.14.8.0
+      Name: CrossPromotion
+      Extension: unitypackage
+      ToolVersionId: 1071
+      Changelog:
+      Type: 4
+      PackageType: 1
+      PluginPaths:
+      - Ketchapp
+      FilesToRemove: []
+      IsPreview: 0
+      PreviewIncrement: 0
+      UnityPackageRegistryName: com.ketchapp.crosspromotion
+      UnityPackageRegistryVersion: 1.14.8
+      SDKRegistry:
+        RegistryName: Ketchapp Third Party
+        RegistryUrl: https://pkgs.dev.azure.com/ketchapp/KetchappMayo_Deploy/_packaging/ketchapp-thirdparty-prod/npm/registry/
+        Scopes:
+        - com.ketchapp
+      IsHotfix: 0
+      HotfixIncrement: 0
+    - ToolId: 32
+      Version: 1.2.185.0
+      Name: External Dependency Manager From UPM
+      Extension: unitypackage
+      ToolVersionId: 1103
+      Changelog:
+      Type: 4
+      PackageType: 1
+      PluginPaths:
+      - ExternalDependencyManager
+      FilesToRemove: []
+      IsPreview: 0
+      PreviewIncrement: 1
+      UnityPackageRegistryName: com.google.external-dependency-manager
+      UnityPackageRegistryVersion: 1.2.185
+      SDKRegistry:
+        RegistryName: package.openupm.com
+        RegistryUrl: https://package.openupm.com
+        Scopes:
+        - com.google.external-dependency-manager
+      IsHotfix: 0
+      HotfixIncrement: 0
+    - ToolId: 18
+      Version: 3.0.8.0
+      Name: Orion.MonetisationCore
+      Extension: unitypackage
+      ToolVersionId: 1104
+      Changelog:
+      Type: 6
+      PackageType: 1
+      PluginPaths: []
+      FilesToRemove: []
+      IsPreview: 0
+      PreviewIncrement: 2
+      UnityPackageRegistryName: com.ketchapp.orion.monetisationcore
+      UnityPackageRegistryVersion: 3.0.8
+      SDKRegistry:
+        RegistryName: Ketchapp Third Party
+        RegistryUrl: https://pkgs.dev.azure.com/ketchapp/KetchappMayo_Deploy/_packaging/ketchapp-thirdparty-prod/npm/registry/
+        Scopes:
+        - com.ketchapp
+      IsHotfix: 0
+      HotfixIncrement: 0
+    MediationAdapters:
+    - NetworkId: 903
+      AdapterName: Bidmachine
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourceBidMachineAdapter
+          Version: 4.3.15.0
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://artifactory.bidmachine.io/bidmachine
+          Spec: io.bidmachine:ads:3.2.1
+          MediationId: 5
+          IsShowInBuild: 0
+      - AndroidPackage:
+          Repositories:
+            Repository:
+          Spec: com.unity3d.ads-mediation:bidmachine-adapter:4.3.12
+          MediationId: 5
+          IsShowInBuild: 1
+    - NetworkId: 4
+      AdapterName: AdMob
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourceAdMobAdapter
+          Version: 4.3.64.0
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.unity3d.ads-mediation:admob-adapter:4.3.50
+          MediationId: 5
+          IsShowInBuild: 1
+      - AndroidPackage:
+          Repositories:
+            Repository: https://maven.google.com
+          Spec: com.google.android.gms:play-services-ads:24.2.0
+          MediationId: 5
+          IsShowInBuild: 0
+    - NetworkId: 14
+      AdapterName: Amazon Publisher Services
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourceAPSAdapter
+          Version: 4.3.17
+          MediationId: 5
+          IsShowInBuild: 1
+      - IosPod:
+          Sources:
+            Source:
+          Name: AmazonPublisherServicesSDK
+          Version: 4.10.1
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.ironsource.adapters:apsadapter:4.3.15
+          MediationId: 5
+          IsShowInBuild: 1
+      - AndroidPackage:
+          Repositories:
+            Repository: https://aws.oss.sonatype.org/content/repositories/releases/
+          Spec: com.amazon.android:aps-sdk:9.10.3
+          MediationId: 5
+          IsShowInBuild: 1
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.iabtcf:iabtcf-decoder:2.0.10
+          MediationId: 5
+          IsShowInBuild: 0
+    - NetworkId: 5
+      AdapterName: AppLovin
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourceAppLovinAdapter
+          Version: 4.3.52.0
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.unity3d.ads-mediation:applovin-adapter:4.3.50
+          MediationId: 5
+          IsShowInBuild: 1
+      - AndroidPackage:
+          Repositories:
+            Repository: https://maven.google.com/
+          Spec: com.applovin:applovin-sdk:13.1.0
+          MediationId: 5
+          IsShowInBuild: 0
+    - NetworkId: 3
+      AdapterName: Chartboost
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourceChartboostAdapter
+          Version: 4.3.20.0
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://cboost.jfrog.io/artifactory/chartboost-ads/
+          Spec: com.chartboost:chartboost-sdk:9.8.3
+          MediationId: 5
+          IsShowInBuild: 0
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.unity3d.ads-mediation:chartboost-adapter:4.3.19
+          MediationId: 5
+          IsShowInBuild: 1
+    - NetworkId: 8
+      AdapterName: Facebook
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourceFacebookAdapter
+          Version: 4.3.49.0
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://maven.google.com/
+          Spec: com.facebook.android:audience-network-sdk:6.19.0
+          MediationId: 5
+          IsShowInBuild: 0
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.unity3d.ads-mediation:facebook-adapter:4.3.49
+          MediationId: 5
+          IsShowInBuild: 1
+    - NetworkId: 9
+      AdapterName: DT Exchange
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourceFyberAdapter
+          Version: 4.3.42.0
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://repo.maven.apache.org/maven2/
+          Spec: com.fyber:marketplace-sdk:8.3.7
+          MediationId: 5
+          IsShowInBuild: 0
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.unity3d.ads-mediation:fyber-adapter:4.3.38
+          MediationId: 5
+          IsShowInBuild: 1
+    - NetworkId: 15
+      AdapterName: InMobi
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourceInMobiAdapter
+          Version: 4.3.27.0
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.unity3d.ads-mediation:inmobi-adapter:4.3.29
+          MediationId: 5
+          IsShowInBuild: 1
+      - AndroidPackage:
+          Repositories:
+            Repository: https://repo.maven.apache.org/maven2/
+          Spec: com.inmobi.monetization:inmobi-ads-kotlin:10.8.2
+          MediationId: 5
+          IsShowInBuild: 0
+      - AndroidPackage:
+          Repositories:
+            Repository: https://maven.google.com/
+          Spec: androidx.legacy:legacy-support-v4:1.0.0
+          MediationId: 5
+          IsShowInBuild: 0
+    - NetworkId: 13
+      AdapterName: Mintegral
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourceMintegralAdapter
+          Version: 4.3.33.0
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea/
+          Spec: com.mbridge.msdk.oversea:mbridge_android_sdk:16.9.61
+          MediationId: 5
+          IsShowInBuild: 0
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.unity3d.ads-mediation:mintegral-adapter:4.3.38
+          MediationId: 5
+          IsShowInBuild: 1
+      - AndroidPackage:
+          Repositories:
+            Repository: https://maven.google.com/
+          Spec: androidx.recyclerview:recyclerview:1.2.1
+          MediationId: 5
+          IsShowInBuild: 0
+    - NetworkId: 904
+      AdapterName: Moloco
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourceMolocoAdapter
+          Version: 4.3.15.0
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.unity3d.ads-mediation:moloco-adapter:4.3.16
+          MediationId: 5
+          IsShowInBuild: 1
+      - AndroidPackage:
+          Repositories:
+            Repository: https://maven.google.com/
+          Spec: com.moloco.sdk:moloco-sdk:3.8.0
+          MediationId: 5
+          IsShowInBuild: 0
+    - NetworkId: 18
+      AdapterName: Pangle
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourcePangleAdapter
+          Version: 4.3.41.0
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://artifact.bytedance.com/repository/pangle/
+          Spec: com.pangle.global:ads-sdk:6.5.0.6
+          MediationId: 5
+          IsShowInBuild: 0
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.unity3d.ads-mediation:pangle-adapter:4.3.38
+          MediationId: 5
+          IsShowInBuild: 1
+    - NetworkId: 1
+      AdapterName: Unity Ads
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourceUnityAdsAdapter
+          Version: 4.3.51.0
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.unity3d.ads-mediation:unityads-adapter:4.3.54
+          MediationId: 5
+          IsShowInBuild: 1
+      - AndroidPackage:
+          Repositories:
+            Repository: https://maven.google.com/
+          Spec: com.unity3d.ads:unity-ads:4.14.2
+          MediationId: 5
+          IsShowInBuild: 0
+    - NetworkId: 2
+      AdapterName: Liftoff
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourceVungleAdapter
+          Version: 4.3.43.0
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.unity3d.ads-mediation:vungle-adapter:4.3.29
+          MediationId: 5
+          IsShowInBuild: 1
+      - AndroidPackage:
+          Repositories:
+            Repository: https://jitpack.io/
+          Spec: com.vungle:vungle-ads:7.4.3
+          MediationId: 5
+          IsShowInBuild: 0
+    MainConfiguration:
+      MediationAppId: 7ea6e795
+      MediationName: IronSource
+      RewardedVideoId: ancjfxcibm9z1w2l
+      InterstitialId: zb6bwy0vxvq3item
+      BannerId: cllx4xxttjujs8bh
+    SecondaryConfiguration:
+      MediationAppId:
+      MediationName:
+      RewardedVideoId:
+      InterstitialId:
+      BannerId:
+    AgeGateInfo:
+      Type: 12
+      MainColorHex: 146EBE
+      BackgroundColorHex: 7A251F
+      IconUrl: https://cdn-ketchapp.akamaized.net/kausercentrics/ketchapp_privacy_icon.png
+  AndroidConfiguration:
+    FacebookAppId: 1689955407947070
+    FacebookAppClientToken: 37ce6bec8588229425d2866b79dab0f3
+    GameAnalyticsSecretKey: 4ca3c986a32fbb3bc9a275eb2955f3b26cdb523c
+    GameAnalyticsGameKey: 33754b5b85e14b264bb495234676f1bb
+    MediationAppId: 7eaddf0d
+    MediationName: IronSource
+    AdMobAppId: ca-app-pub-3528493407894382~2749559152
+    AppOpenId:
+    RewardedVideoId: wyo44wt1l0i0jk5d
+    InterstitialId: rh4sn50x6cg1lu5t
+    BannerId: re6g2n9x74ieht39
+    AppsflyerApiKey: YoiUUBJvvVVt68rQ5ppyCQ
+    AppsFlyerAppid: com.ketchapp.stack
+    CrossPromotionBundle: com.ketchapp.stack
+    APSAppId: 86c49937-5d79-42f2-b309-f08397ae5d64
+    APSBannerId: 76db23e5-19fc-4eab-a29a-836e168026a0
+    APSTabletBannerId: Undefined
+    APSInterstitialId: b12f2004-5b26-4c2c-ba40-15b7ed977125
+    APSRewardedVideoId: b362e1b4-fc7e-425a-897d-e40dfe5a1bef
+    BundleId: com.ketchapp.stack
+    UsercentricsRulesetId: -_choNtA2sbiv7
+    AndroidManifestValues:
+    - ManifestType: 3
+      Name: name
+      Value: android.permission.VIBRATE
+    - ManifestType: 3
+      Name: name
+      Value: android.permission.WRITE_EXTERNAL_STORAGE
+    - ManifestType: 3
+      Name: name
+      Value: android.permission.ACCESS_WIFI_STATE
+    - ManifestType: 2
+      Name: usesCleartextTraffic
+      Value: true
+    - ManifestType: 2
+      Name: debuggable
+      Value: false
+    - ManifestType: 3
+      Name: name
+      Value: com.google.android.gms.permission.AD_ID
+    - ManifestType: 4
+      Name: com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION
+      Value: true
+    - ManifestType: 4
+      Name: com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING
+      Value: true
+    - ManifestType: 4
+      Name: com.google.android.gms.ads.APPLICATION_ID
+      Value: ca-app-pub-3528493407894382~2749559152
+    GradleValues:
+    - ManifestType: 0
+      Name: dependencies
+      Value: implementation 'com.google.android.gms:play-services-ads-identifier:17.0.0'
+    - ManifestType: 0
+      Name: dependencies
+      Value: implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.3.72'
+    - ManifestType: 0
+      Name: dependencies
+      Value: implementation 'com.google.android.gms:play-services-base:17.4.0'
+    - ManifestType: 0
+      Name: dependencies
+      Value: implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    - ManifestType: 0
+      Name: dependencies
+      Value: implementation 'com.google.android.material:material:1.1.0'
+    - ManifestType: 0
+      Name: dependencies
+      Value: implementation 'com.google.code.gson:gson:2.3.1'
+    SdkList:
+    - ToolId: 5
+      Version: 8.8.0.0
+      Name: IronSource
+      Extension: unitypackage
+      ToolVersionId: 1105
+      Changelog:
+      Type: 2
+      PackageType: 1
+      PluginPaths:
+      - IronSource
+      FilesToRemove: []
+      IsPreview: 0
+      PreviewIncrement: 5
+      UnityPackageRegistryName: com.ketchapp.ironsource
+      UnityPackageRegistryVersion: 8.8.0
+      SDKRegistry:
+        RegistryName: Ketchapp Third Party
+        RegistryUrl: https://pkgs.dev.azure.com/ketchapp/KetchappMayo_Deploy/_packaging/ketchapp-thirdparty-prod/npm/registry/
+        Scopes:
+        - com.ketchapp
+      IsHotfix: 0
+      HotfixIncrement: 0
+    - ToolId: 8
+      Version: 6.15.3.0
+      Name: AppsFlyer
+      Extension: unitypackage
+      ToolVersionId: 1094
+      Changelog:
+      Type: 3
+      PackageType: 1
+      PluginPaths:
+      - AppsFlyer/AppsFlyerObject.prefab
+      - AppsFlyer/Plugins/iOS/AppsFlyerAttribution.m
+      - AppsFlyer/Plugins/iOS/AppsFlyeriOSWrapper.h
+      - AppsFlyer/AppsFlyerAndroid.cs
+      - AppsFlyer/Plugins/iOS/AFUnityUtils.mm
+      - AppsFlyer/Tests/Tests_Suite.cs
+      - AppsFlyer/Tests/Tests.asmdef
+      - AppsFlyer/AppsFlyerObjectScript.cs
+      - AppsFlyer/AppsFlyer.asmdef
+      - AppsFlyer/Plugins/iOS/AppsFlyeriOSWrapper.mm
+      - AppsFlyer/Plugins/iOS/AppsFlyerAppController.mm
+      - AppsFlyer/Tests/System.Runtime.CompilerServices.Unsafe.dll
+      - AppsFlyer/AFInAppEvents.cs
+      - AppsFlyer/IAppsFlyerNativeBridge.cs
+      - AppsFlyer/AppsFlyer.cs
+      - AppsFlyer/Plugins/iOS/AFUnityUtils.h
+      - AppsFlyer/IAppsFlyerUserInvite.cs
+      - AppsFlyer/IAppsFlyerValidateReceipt.cs
+      - AppsFlyer/Tests/NSubstitute.dll
+      - AppsFlyer/IAppsFlyerIOSBridge.cs
+      - AppsFlyer/Plugins/iOS/AppsFlyer+AppController.m
+      - AppsFlyer/Tests/Castle.Core.dll
+      - AppsFlyer/Plugins/iOS/AppsFlyerAttribution.h
+      - AppsFlyer/Editor/AppsFlyerDependencies.xml
+      - AppsFlyer/AppsFlyerEventArgs.cs
+      - AppsFlyer/package.json
+      - AppsFlyer/AppsFlyerConsent.cs
+      - AppsFlyer/AppsFlyeriOS.cs
+      - AppsFlyer/AFMiniJSON.cs
+      - AppsFlyer/Editor/appsflyer_logo.png
+      - AppsFlyer/IAppsFlyerAndroidBridge.cs
+      - AppsFlyer/Editor/AppsFlyer.Editor.asmdef
+      - AppsFlyer/Editor/AppsFlyerObjectEditor.cs
+      - AppsFlyer/IAppsFlyerConversionData.cs
+      - AppsFlyer/Tests/System.Threading.Tasks.Extensions.dll
+      - AppsFlyer
+      FilesToRemove: []
+      IsPreview: 0
+      PreviewIncrement: 1
+      UnityPackageRegistryName: com.ketchapp.appsflyer
+      UnityPackageRegistryVersion: 6.15.3
+      SDKRegistry:
+        RegistryName: Ketchapp Third Party
+        RegistryUrl: https://pkgs.dev.azure.com/ketchapp/KetchappMayo_Deploy/_packaging/ketchapp-thirdparty-prod/npm/registry/
+        Scopes:
+        - com.ketchapp
+      IsHotfix: 0
+      HotfixIncrement: 0
+    - ToolId: 28
+      Version: 2.1.0.0
+      Name: AppsFlyer purchase SDK connector
+      Extension: unitypackage
+      ToolVersionId: 1095
+      Changelog:
+      Type: 3
+      PackageType: 1
+      PluginPaths:
+      - AppsFlyer/AppsFlyerPurchaseConnector.cs
+      - AppsFlyer/Plugins/iOS/AppsFlyerPurchaseiOSWrapper.h
+      - AppsFlyer/Plugins/iOS/AppsFlyerPurchaseiOSWrapper.mm
+      - AppsFlyer/ProductPurchase.cs
+      - AppsFlyer/IAppsFlyerPurchaseValidation.cs
+      - AppsFlyer/Editor/AppsFlyerPurchaseConnectorDependencies.xml
+      FilesToRemove: []
+      IsPreview: 0
+      PreviewIncrement: 1
+      UnityPackageRegistryName: com.ketchapp.appsflyerpurchasesdkconnector
+      UnityPackageRegistryVersion: 2.1.0
+      SDKRegistry:
+        RegistryName: Ketchapp Third Party
+        RegistryUrl: https://pkgs.dev.azure.com/ketchapp/KetchappMayo_Deploy/_packaging/ketchapp-thirdparty-prod/npm/registry/
+        Scopes:
+        - com.ketchapp
+      IsHotfix: 0
+      HotfixIncrement: 0
+    - ToolId: 9
+      Version: 17.0.1.1
+      Name: FacebookSDK
+      Extension: unitypackage
+      ToolVersionId: 1093
+      Changelog:
+      Type: 3
+      PackageType: 1
+      PluginPaths:
+      - FacebookSDK/Plugins/Canvas/CanvasJSSDKBindings.jslib
+      - FacebookSDK/Plugins/Facebook.Unity.dll
+      - FacebookSDK/Plugins/Editor/Facebook.Unity.Editor.dll
+      - FacebookSDK/Plugins/Editor/Dependencies.xml
+      - FacebookSDK/Plugins/Android/libs/facebook-android-wrapper-11.0.0.aar
+      - FacebookSDK/SDK/Editor/iOS/Swift/FBSDKTournament.swift
+      - FacebookSDK/SDK/Editor/iOS/FBUnityInterface.mm
+      - FacebookSDK/SDK/Editor/iOS/FBUnityInterface.h
+      - FacebookSDK/Plugins/iOS/Facebook.Unity.IOS.dll
+      - FacebookSDK/link.xml
+      - FacebookSDK/SDK/Editor/iOS/FBUnityUtility.mm
+      - FacebookSDK/SDK/Editor/iOS/FBSDK+Internal.h
+      - FacebookSDK/SDK/Editor/iOS/FBUnitySDKDelegate.h
+      - FacebookSDK/SDK/Editor/iOS/Swift/FBSDKTournamentFetcher.swift
+      - FacebookSDK/SDK/Editor/iOS/Swift/FBSDKTournamentUpdater.swift
+      - FacebookSDK/SDK/Editor/iOS/fixup.projmods
+      - FacebookSDK/SDK/Editor/iOS/FBUnityUtility.h
+      - FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll
+      - FacebookSDK/Plugins/Canvas/Facebook.Unity.Canvas.dll
+      - FacebookSDK/SDK/Editor/iOS/Swift/FBSDKShareTournamentDialog.swift
+      - FacebookSDK/Plugins/Android/Facebook.Unity.Android.dll
+      - FacebookSDK/SDK/Editor/iOS/FBUnitySDKDelegate.m
+      - FacebookSDK/Plugins/Android/libs/facebook-android-wrapper-17.0.1.aar
+      - FacebookSDK.meta
+      - FacebookSDK
+      - FacebookSDK/Plugins
+      - FacebookSDK/Plugins.meta
+      - FacebookSDK/Plugins/Android
+      - FacebookSDK/Plugins/Android.meta
+      - FacebookSDK/Plugins/Android/libs
+      - FacebookSDK/Plugins/Android/libs.meta
+      - FacebookSDK/Plugins/Canvas
+      - FacebookSDK/Plugins/Canvas.meta
+      - FacebookSDK/Plugins/Editor
+      - FacebookSDK/Plugins/Editor.meta
+      - FacebookSDK/Plugins/iOS.meta
+      - FacebookSDK/Plugins/iOS
+      - FacebookSDK/Plugins/Settings.meta
+      - FacebookSDK/Plugins/Settings
+      - FacebookSDK/SDK
+      - FacebookSDK/SDK/Editor
+      - FacebookSDK/SDK.meta
+      - FacebookSDK/SDK/Editor.meta
+      - FacebookSDK/SDK/Editor/iOS
+      - FacebookSDK/SDK/Editor/iOS/Swift
+      - FacebookSDK/SDK/Editor/iOS/Swift.meta
+      - FacebookSDK/SDK/Editor/iOS.meta
+      FilesToRemove: []
+      IsPreview: 0
+      PreviewIncrement: 1
+      UnityPackageRegistryName: com.ketchapp.facebooksdk
+      UnityPackageRegistryVersion: 17.0.1-hotfix.1
+      SDKRegistry:
+        RegistryName: Ketchapp Third Party
+        RegistryUrl: https://pkgs.dev.azure.com/ketchapp/KetchappMayo_Deploy/_packaging/ketchapp-thirdparty-prod/npm/registry/
+        Scopes:
+        - com.ketchapp
+      IsHotfix: 1
+      HotfixIncrement: 1
+    - ToolId: 24
+      Version: 11.9.0.0
+      Name: Firebase Analytics
+      Extension: unitypackage
+      ToolVersionId: 1051
+      Changelog:
+      Type: 3
+      PackageType: 1
+      PluginPaths:
+      - Firebase
+      FilesToRemove: []
+      IsPreview: 0
+      PreviewIncrement: 1
+      UnityPackageRegistryName: com.ketchapp.firebaseanalytics
+      UnityPackageRegistryVersion: 11.9.0
+      SDKRegistry:
+        RegistryName: Ketchapp Third Party
+        RegistryUrl: https://pkgs.dev.azure.com/ketchapp/KetchappMayo_Deploy/_packaging/ketchapp-thirdparty-prod/npm/registry/
+        Scopes:
+        - com.ketchapp
+      IsHotfix: 0
+      HotfixIncrement: 0
+    - ToolId: 7
+      Version: 7.10.4.0
+      Name: GameAnalytics
+      Extension: unitypackage
+      ToolVersionId: 1097
+      Changelog:
+      Type: 3
+      PackageType: 1
+      PluginPaths:
+      - GameAnalytics
+      FilesToRemove: []
+      IsPreview: 0
+      PreviewIncrement: 1
+      UnityPackageRegistryName: com.ketchapp.gameanalytics
+      UnityPackageRegistryVersion: 7.10.4
+      SDKRegistry:
+        RegistryName: Ketchapp Third Party
+        RegistryUrl: https://pkgs.dev.azure.com/ketchapp/KetchappMayo_Deploy/_packaging/ketchapp-thirdparty-prod/npm/registry/
+        Scopes:
+        - com.ketchapp
+      IsHotfix: 0
+      HotfixIncrement: 0
+    - ToolId: 30
+      Version: 2.15.6.0
+      Name: Usercentrics
+      Extension: unitypackage
+      ToolVersionId: 1079
+      Changelog:
+      Type: 3
+      PackageType: 1
+      PluginPaths: []
+      FilesToRemove: []
+      IsPreview: 0
+      PreviewIncrement: 1
+      UnityPackageRegistryName: com.ketchapp.usercentrics
+      UnityPackageRegistryVersion: 2.15.6
+      SDKRegistry:
+        RegistryName: Ketchapp Third Party
+        RegistryUrl: https://pkgs.dev.azure.com/ketchapp/KetchappMayo_Deploy/_packaging/ketchapp-thirdparty-prod/npm/registry/
+        Scopes:
+        - com.ketchapp
+      IsHotfix: 0
+      HotfixIncrement: 0
+    - ToolId: 31
+      Version: 1.9.1.0
+      Name: Amazon Publisher Services SDK
+      Extension: unitypackage
+      ToolVersionId: 1076
+      Changelog:
+      Type: 4
+      PackageType: 1
+      PluginPaths: []
+      FilesToRemove: []
+      IsPreview: 0
+      PreviewIncrement: 1
+      UnityPackageRegistryName: com.ketchapp.amazonpublisherservicessdk
+      UnityPackageRegistryVersion: 1.9.1
+      SDKRegistry:
+        RegistryName: Ketchapp Third Party
+        RegistryUrl: https://pkgs.dev.azure.com/ketchapp/KetchappMayo_Deploy/_packaging/ketchapp-thirdparty-prod/npm/registry/
+        Scopes:
+        - com.ketchapp
+      IsHotfix: 0
+      HotfixIncrement: 0
+    - ToolId: 10
+      Version: 1.14.8.0
+      Name: CrossPromotion
+      Extension: unitypackage
+      ToolVersionId: 1071
+      Changelog:
+      Type: 4
+      PackageType: 1
+      PluginPaths:
+      - Ketchapp
+      FilesToRemove: []
+      IsPreview: 0
+      PreviewIncrement: 0
+      UnityPackageRegistryName: com.ketchapp.crosspromotion
+      UnityPackageRegistryVersion: 1.14.8
+      SDKRegistry:
+        RegistryName: Ketchapp Third Party
+        RegistryUrl: https://pkgs.dev.azure.com/ketchapp/KetchappMayo_Deploy/_packaging/ketchapp-thirdparty-prod/npm/registry/
+        Scopes:
+        - com.ketchapp
+      IsHotfix: 0
+      HotfixIncrement: 0
+    - ToolId: 32
+      Version: 1.2.185.0
+      Name: External Dependency Manager From UPM
+      Extension: unitypackage
+      ToolVersionId: 1103
+      Changelog:
+      Type: 4
+      PackageType: 1
+      PluginPaths:
+      - ExternalDependencyManager
+      FilesToRemove: []
+      IsPreview: 0
+      PreviewIncrement: 1
+      UnityPackageRegistryName: com.google.external-dependency-manager
+      UnityPackageRegistryVersion: 1.2.185
+      SDKRegistry:
+        RegistryName: package.openupm.com
+        RegistryUrl: https://package.openupm.com
+        Scopes:
+        - com.google.external-dependency-manager
+      IsHotfix: 0
+      HotfixIncrement: 0
+    - ToolId: 18
+      Version: 3.0.8.0
+      Name: Orion.MonetisationCore
+      Extension: unitypackage
+      ToolVersionId: 1104
+      Changelog:
+      Type: 6
+      PackageType: 1
+      PluginPaths: []
+      FilesToRemove: []
+      IsPreview: 0
+      PreviewIncrement: 2
+      UnityPackageRegistryName: com.ketchapp.orion.monetisationcore
+      UnityPackageRegistryVersion: 3.0.8
+      SDKRegistry:
+        RegistryName: Ketchapp Third Party
+        RegistryUrl: https://pkgs.dev.azure.com/ketchapp/KetchappMayo_Deploy/_packaging/ketchapp-thirdparty-prod/npm/registry/
+        Scopes:
+        - com.ketchapp
+      IsHotfix: 0
+      HotfixIncrement: 0
+    MediationAdapters:
+    - NetworkId: 903
+      AdapterName: Bidmachine
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourceBidMachineAdapter
+          Version: 4.3.15.0
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://artifactory.bidmachine.io/bidmachine
+          Spec: io.bidmachine:ads:3.2.1
+          MediationId: 5
+          IsShowInBuild: 0
+      - AndroidPackage:
+          Repositories:
+            Repository:
+          Spec: com.unity3d.ads-mediation:bidmachine-adapter:4.3.12
+          MediationId: 5
+          IsShowInBuild: 1
+    - NetworkId: 4
+      AdapterName: AdMob
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourceAdMobAdapter
+          Version: 4.3.64.0
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.unity3d.ads-mediation:admob-adapter:4.3.50
+          MediationId: 5
+          IsShowInBuild: 1
+      - AndroidPackage:
+          Repositories:
+            Repository: https://maven.google.com
+          Spec: com.google.android.gms:play-services-ads:24.2.0
+          MediationId: 5
+          IsShowInBuild: 0
+    - NetworkId: 14
+      AdapterName: Amazon Publisher Services
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourceAPSAdapter
+          Version: 4.3.17
+          MediationId: 5
+          IsShowInBuild: 1
+      - IosPod:
+          Sources:
+            Source:
+          Name: AmazonPublisherServicesSDK
+          Version: 4.10.1
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.ironsource.adapters:apsadapter:4.3.15
+          MediationId: 5
+          IsShowInBuild: 1
+      - AndroidPackage:
+          Repositories:
+            Repository: https://aws.oss.sonatype.org/content/repositories/releases/
+          Spec: com.amazon.android:aps-sdk:9.10.3
+          MediationId: 5
+          IsShowInBuild: 1
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.iabtcf:iabtcf-decoder:2.0.10
+          MediationId: 5
+          IsShowInBuild: 0
+    - NetworkId: 5
+      AdapterName: AppLovin
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourceAppLovinAdapter
+          Version: 4.3.52.0
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.unity3d.ads-mediation:applovin-adapter:4.3.50
+          MediationId: 5
+          IsShowInBuild: 1
+      - AndroidPackage:
+          Repositories:
+            Repository: https://maven.google.com/
+          Spec: com.applovin:applovin-sdk:13.1.0
+          MediationId: 5
+          IsShowInBuild: 0
+    - NetworkId: 3
+      AdapterName: Chartboost
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourceChartboostAdapter
+          Version: 4.3.20.0
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://cboost.jfrog.io/artifactory/chartboost-ads/
+          Spec: com.chartboost:chartboost-sdk:9.8.3
+          MediationId: 5
+          IsShowInBuild: 0
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.unity3d.ads-mediation:chartboost-adapter:4.3.19
+          MediationId: 5
+          IsShowInBuild: 1
+    - NetworkId: 8
+      AdapterName: Facebook
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourceFacebookAdapter
+          Version: 4.3.49.0
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://maven.google.com/
+          Spec: com.facebook.android:audience-network-sdk:6.19.0
+          MediationId: 5
+          IsShowInBuild: 0
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.unity3d.ads-mediation:facebook-adapter:4.3.49
+          MediationId: 5
+          IsShowInBuild: 1
+    - NetworkId: 9
+      AdapterName: DT Exchange
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourceFyberAdapter
+          Version: 4.3.42.0
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://repo.maven.apache.org/maven2/
+          Spec: com.fyber:marketplace-sdk:8.3.7
+          MediationId: 5
+          IsShowInBuild: 0
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.unity3d.ads-mediation:fyber-adapter:4.3.38
+          MediationId: 5
+          IsShowInBuild: 1
+    - NetworkId: 15
+      AdapterName: InMobi
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourceInMobiAdapter
+          Version: 4.3.27.0
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.unity3d.ads-mediation:inmobi-adapter:4.3.29
+          MediationId: 5
+          IsShowInBuild: 1
+      - AndroidPackage:
+          Repositories:
+            Repository: https://repo.maven.apache.org/maven2/
+          Spec: com.inmobi.monetization:inmobi-ads-kotlin:10.8.2
+          MediationId: 5
+          IsShowInBuild: 0
+      - AndroidPackage:
+          Repositories:
+            Repository: https://maven.google.com/
+          Spec: androidx.legacy:legacy-support-v4:1.0.0
+          MediationId: 5
+          IsShowInBuild: 0
+    - NetworkId: 13
+      AdapterName: Mintegral
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourceMintegralAdapter
+          Version: 4.3.33.0
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea/
+          Spec: com.mbridge.msdk.oversea:mbridge_android_sdk:16.9.61
+          MediationId: 5
+          IsShowInBuild: 0
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.unity3d.ads-mediation:mintegral-adapter:4.3.38
+          MediationId: 5
+          IsShowInBuild: 1
+      - AndroidPackage:
+          Repositories:
+            Repository: https://maven.google.com/
+          Spec: androidx.recyclerview:recyclerview:1.2.1
+          MediationId: 5
+          IsShowInBuild: 0
+    - NetworkId: 904
+      AdapterName: Moloco
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourceMolocoAdapter
+          Version: 4.3.15.0
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.unity3d.ads-mediation:moloco-adapter:4.3.16
+          MediationId: 5
+          IsShowInBuild: 1
+      - AndroidPackage:
+          Repositories:
+            Repository: https://maven.google.com/
+          Spec: com.moloco.sdk:moloco-sdk:3.8.0
+          MediationId: 5
+          IsShowInBuild: 0
+    - NetworkId: 18
+      AdapterName: Pangle
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourcePangleAdapter
+          Version: 4.3.41.0
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://artifact.bytedance.com/repository/pangle/
+          Spec: com.pangle.global:ads-sdk:6.5.0.6
+          MediationId: 5
+          IsShowInBuild: 0
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.unity3d.ads-mediation:pangle-adapter:4.3.38
+          MediationId: 5
+          IsShowInBuild: 1
+    - NetworkId: 1
+      AdapterName: Unity Ads
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourceUnityAdsAdapter
+          Version: 4.3.51.0
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.unity3d.ads-mediation:unityads-adapter:4.3.54
+          MediationId: 5
+          IsShowInBuild: 1
+      - AndroidPackage:
+          Repositories:
+            Repository: https://maven.google.com/
+          Spec: com.unity3d.ads:unity-ads:4.14.2
+          MediationId: 5
+          IsShowInBuild: 0
+    - NetworkId: 2
+      AdapterName: Liftoff
+      PodInfo:
+      - IosPod:
+          Sources:
+            Source: https://github.com/CocoaPods/Specs
+          Name: IronSourceVungleAdapter
+          Version: 4.3.43.0
+          MediationId: 5
+          IsShowInBuild: 1
+      AndroidPackagesInfos:
+      - AndroidPackage:
+          Repositories:
+            Repository: https://android-sdk.is.com/
+          Spec: com.unity3d.ads-mediation:vungle-adapter:4.3.29
+          MediationId: 5
+          IsShowInBuild: 1
+      - AndroidPackage:
+          Repositories:
+            Repository: https://jitpack.io/
+          Spec: com.vungle:vungle-ads:7.4.3
+          MediationId: 5
+          IsShowInBuild: 0
+    MainConfiguration:
+      MediationAppId: 7eaddf0d
+      MediationName: IronSource
+      RewardedVideoId: wyo44wt1l0i0jk5d
+      InterstitialId: rh4sn50x6cg1lu5t
+      BannerId: re6g2n9x74ieht39
+    SecondaryConfiguration:
+      MediationAppId:
+      MediationName:
+      RewardedVideoId:
+      InterstitialId:
+      BannerId:
+    AgeGateInfo:
+      Type: 12
+      MainColorHex: 146EBE
+      BackgroundColorHex: 7A251F
+      IconUrl: https://cdn-ketchapp.akamaized.net/kausercentrics/ketchapp_privacy_icon.png
+  SKAdNetworksId:
+  - 22mmun2rn5.skadnetwork
+  - 238da6jt44.skadnetwork
+  - 294l99pt4k.skadnetwork
+  - 2fnua5tdw4.skadnetwork
+  - 2u9pt9hc89.skadnetwork
+  - 32z4fx6l9h.skadnetwork
+  - 3qy4746246.skadnetwork
+  - 3rd42ekr43.skadnetwork
+  - 3sh42y64q3.skadnetwork
+  - 424m5254lk.skadnetwork
+  - 4468km3ulz.skadnetwork
+  - 44jx6755aq.skadnetwork
+  - 488r3q3dtq.skadnetwork
+  - 4dzt52r2t5.skadnetwork
+  - 4fzdc2evr5.skadnetwork
+  - 4pfyvq9l8r.skadnetwork
+  - 4w7y6s5ca2.skadnetwork
+  - 578prtvx9j.skadnetwork
+  - 5a6flpkh64.skadnetwork
+  - 5f5u5tfb26.skadnetwork
+  - 5l3tpt7t6e.skadnetwork
+  - 5lm9lj6jb7.skadnetwork
+  - 5tjdwbrq8w.skadnetwork
+  - 6yxyv74ff7.skadnetwork
+  - 7ug5zh24hu.skadnetwork
+  - 8s468mfl3y.skadnetwork
+  - 97r2b46745.skadnetwork
+  - 9nlqeag3gk.skadnetwork
+  - 9rd848q2bz.skadnetwork
+  - 9t245vhmpl.skadnetwork
+  - a2p9lx4jpn.skadnetwork
+  - a8cz6cu7e5.skadnetwork
+  - av6w8kgt66.skadnetwork
+  - c6k4g5qg8m.skadnetwork
+  - cstr6suwn9.skadnetwork
+  - e5fvkxwrpn.skadnetwork
+  - f38h382jlk.skadnetwork
+  - f73kdq92p3.skadnetwork
+  - f7s53z58qe.skadnetwork
+  - feyaarzu9v.skadnetwork
+  - g6gcrrvk4p.skadnetwork
+  - glqzh8vgby.skadnetwork
+  - hs6bdukanm.skadnetwork
+  - k674qkevps.skadnetwork
+  - k6y4y55b64.skadnetwork
+  - kbd757ywx3.skadnetwork
+  - klf5c3l5u5.skadnetwork
+  - lr83yxwka7.skadnetwork
+  - m8dbw4sv7c.skadnetwork
+  - mj797d8u6f.skadnetwork
+  - mlmmfzh3r3.skadnetwork
+  - mp6xlyr22a.skadnetwork
+  - mqn7fxpca7.skadnetwork
+  - n9x2a789qt.skadnetwork
+  - p78axxw29g.skadnetwork
+  - ppxm28t8ap.skadnetwork
+  - prcb7njmu6.skadnetwork
+  - pwa73g5rt2.skadnetwork
+  - s39g8k73mm.skadnetwork
+  - t38b2kh725.skadnetwork
+  - tl55sbb4fm.skadnetwork
+  - uw77j35x4d.skadnetwork
+  - v72qych5uu.skadnetwork
+  - v79kvwwj4g.skadnetwork
+  - v9wttpbfk9.skadnetwork
+  - vhf287vqwu.skadnetwork
+  - w9q455wk68.skadnetwork
+  - wg4vff78zm.skadnetwork
+  - wzmmz9fp6w.skadnetwork
+  - x44k69ngh6.skadnetwork
+  - xga6mpmplv.skadnetwork
+  - yclnxrl5pm.skadnetwork
+  - ydx93a7ass.skadnetwork
+  - zmvfpc5aq8.skadnetwork
+  - zq492l623r.skadnetwork
+  - su67r6k2v3.skadnetwork
+  - 24t9a8vw3c.skadnetwork
+  - 24zw6aqk47.skadnetwork
+  - 275upjj5gd.skadnetwork
+  - 3l6bd9hu43.skadnetwork
+  - 3qcr597p9d.skadnetwork
+  - 44n7hlldy6.skadnetwork
+  - 523jb4fst2.skadnetwork
+  - 52fl2v3hgk.skadnetwork
+  - 54nzkqm89y.skadnetwork
+  - 6964rsfnh4.skadnetwork
+  - 6g9af3uyq4.skadnetwork
+  - 6lz2ygh3q6.adattributionkit
+  - 6p4ks3rnbw.skadnetwork
+  - 6rd35atwn8.skadnetwork
+  - 6v7lgmsu45.skadnetwork
+  - 6xzpu9s2p8.skadnetwork
+  - 737z793b9f.skadnetwork
+  - 74b6s63p6l.skadnetwork
+  - 79pbpufp6p.skadnetwork
+  - 7fmhfwg9en.skadnetwork
+  - 7rz58n8ntl.skadnetwork
+  - 84993kbrcf.skadnetwork
+  - 87u5trcl3r.skadnetwork
+  - 89z7zv988g.skadnetwork
+  - 8m87ys6875.skadnetwork
+  - 9b89h5y424.skadnetwork
+  - 9vvzujtq5s.skadnetwork
+  - a7xqa6mtl2.skadnetwork
+  - apzhy3va96.skadnetwork
+  - b9bk5wbcq9.skadnetwork
+  - bvpn9ufa9b.skadnetwork
+  - bxvub5ada5.skadnetwork
+  - c3frkrj4fj.skadnetwork
+  - cg4yq2srnc.skadnetwork
+  - cj5566h2ga.skadnetwork
+  - cp8zw746q7.skadnetwork
+  - cs644xg564.skadnetwork
+  - cwn433xbcr.skadnetwork
+  - dbu4b84rxf.skadnetwork
+  - dkc879ngq3.skadnetwork
+  - dzg6xy7pwj.skadnetwork
+  - ecpz2srf59.skadnetwork
+  - ejvt5qm6ak.skadnetwork
+  - f2zub97jtl.skadnetwork
+  - fq6vru337s.skadnetwork
+  - fz2k2k5tej.skadnetwork
+  - g28c52eehv.skadnetwork
+  - g2y4y55b64.skadnetwork
+  - ggvn48r87g.skadnetwork
+  - gta9lk7p23.skadnetwork
+  - hb56zgv37p.skadnetwork
+  - hdw39hrw9y.skadnetwork
+  - kbmxgpxpgc.skadnetwork
+  - krvm3zuq6h.skadnetwork
+  - ln5gz23vtd.skadnetwork
+  - ludvb6z3bs.skadnetwork
+  - m297p6643m.skadnetwork
+  - m2jqnlggk3.adattributionkit
+  - m5mvw97r93.skadnetwork
+  - mls7yz5dvl.skadnetwork
+  - mtkv5xtk9e.skadnetwork
+  - n38lu8286q.skadnetwork
+  - n6fk4nfna4.skadnetwork
+  - ns5j362hk7.skadnetwork
+  - pwdxu55a5a.skadnetwork
+  - qqp299437r.skadnetwork
+  - qu637u8glc.skadnetwork
+  - qwpu75vrh2.skadnetwork
+  - r45fhb6rf7.skadnetwork
+  - raa6f494kr.adattributionkit
+  - rvh3l7un93.skadnetwork
+  - rx5hdcabgc.skadnetwork
+  - sczv5946wb.skadnetwork
+  - t6d3zquu66.skadnetwork
+  - thzdn4h5nc.adattributionkit
+  - tmhh9296z4.skadnetwork
+  - u679fj5vs4.skadnetwork
+  - vcra2ehyfk.skadnetwork
+  - x5l83yy675.skadnetwork
+  - x8uqf25wch.skadnetwork
+  - xy9t38ct57.skadnetwork
+  - y45688jllp.skadnetwork
+  - y5ghdn5j9k.skadnetwork
+  - z959bm4gru.skadnetwork
+  - 252b5q8x7y.skadnetwork
+  - 47vhws6wlr.skadnetwork
+  - 4mn522wn87.skadnetwork
+  - 55644vm79v.skadnetwork
+  - 577p5t736z.skadnetwork
+  - 7953jerfzd.skadnetwork
+  - 7bxrt786m8.skadnetwork
+  - 7fbxrn65az.skadnetwork
+  - 8c4e2ghe7u.skadnetwork
+  - 8r8llnkz5a.skadnetwork
+  - 9g2aggbj52.skadnetwork
+  - 9yg77x724h.skadnetwork
+  - ce8ybjwass.skadnetwork
+  - dt3cjx1a9i.skadnetwork
+  - eh6m2bh4zr.skadnetwork
+  - gta8lk7p23.skadnetwork
+  - gvmwg8q7h5.skadnetwork
+  - h65wbv5k3f.skadnetwork
+  - hjevpa356n.skadnetwork
+  - jk2fsx2rgz.skadnetwork
+  - n66cz3y3bx.skadnetwork
+  - nu4557a4je.skadnetwork
+  - nzq8sh4pbs.skadnetwork
+  - pu4na253f3.skadnetwork
+  - r8lj5b58b5.skadnetwork
+  - s69wq72ugq.skadnetwork
+  - tvvz7th9br.skadnetwork
+  - v4nxqhlyqp.skadnetwork
+  - vutu7akeur.skadnetwork
+  - w7jznl3r6g.skadnetwork
+  - x8jxxk4ff5.skadnetwork
+  - yrqqpx2mcb.skadnetwork
+  - z24wtl6j62.skadnetwork
+  - z4gj7hsk7h.skadnetwork
+  - tskbem2b5g.skadnetwork
+  - x8yj322td6.skadnetwork
+  - 55y65gfgn7.skadnetwork
+  - 87yhbnd3gg.skadnetwork
+  - dbnk45hier.skadnetwork
+  - cdkw7geqsh.skadnetwork
+  - qyjfv329m4.skadnetwork
+  GameState: 2
+  DebuggerCode: UQN/yGE635N1qw==
+  UsercentricsRulesetId: -_choNtA2sbiv7
+  MailInfo:
+    PublisherName: Ketchapp
+    PublisherMailTo: support@ketchappgames.com
+  AgeGateType: 0
+  PrivacyApiUrl: https://privacy-api.ketchappgames.com/ketchapp
+  PrivacyApiAccessToken: TgXtLZGs97SDpxaWNBPm2RuC7M7CD2BY
+  NonMayoSdkPlayerPrefs: []
+  IronSourceChildrenSettings:
+  - AdapterName: DigitalTurbine
+    MetaDataKey: DT_IsChild
+    MetaDataValueIfMinor: true
+    MetaDataValueIfNotMinor: false
+  - AdapterName: AdMob
+    MetaDataKey: AdMob_TFCD
+    MetaDataValueIfMinor: true
+    MetaDataValueIfNotMinor: false
+  - AdapterName: InMobi
+    MetaDataKey: InMobi_AgeRestricted
+    MetaDataValueIfMinor: true
+    MetaDataValueIfNotMinor: false
+  - AdapterName: Liftoff Monetize
+    MetaDataKey: Vungle_coppa
+    MetaDataValueIfMinor: true
+    MetaDataValueIfNotMinor: false
+  - AdapterName: Mintegral
+    MetaDataKey: Mintegral_COPPA
+    MetaDataValueIfMinor: true
+    MetaDataValueIfNotMinor: false
+  - AdapterName: Moloco
+    MetaDataKey: Moloco_COPPA
+    MetaDataValueIfMinor: true
+    MetaDataValueIfNotMinor: false
+  - AdapterName: Chartboost
+    MetaDataKey: Chartboost_Coppa
+    MetaDataValueIfMinor: true
+    MetaDataValueIfNotMinor: false
+  - AdapterName: BidMachine
+    MetaDataKey: BidMachine_COPPA
+    MetaDataValueIfMinor: true
+    MetaDataValueIfNotMinor: false
+  - AdapterName: Meta
+    MetaDataKey: Meta_Mixed_Audience
+    MetaDataValueIfMinor: true
+    MetaDataValueIfNotMinor: false
+  - AdapterName: UnityAds
+    MetaDataKey: UnityAds_coppa
+    MetaDataValueIfMinor: true
+    MetaDataValueIfNotMinor: false
+  - AdapterName: AppLovin
+    MetaDataKey: AppLovin_AgeRestrictedUser
+    MetaDataValueIfMinor: true
+    MetaDataValueIfNotMinor: false
+  - AdapterName: DigitalTurbine
+    MetaDataKey: DT_COPPA
+    MetaDataValueIfMinor: true
+    MetaDataValueIfNotMinor: false
+  - AdapterName: Pangle
+    MetaDataKey: Pangle_COPPA
+    MetaDataValueIfMinor: 1
+    MetaDataValueIfNotMinor: 0

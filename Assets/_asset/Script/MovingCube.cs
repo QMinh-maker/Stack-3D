@@ -11,6 +11,14 @@ public class MovingCube : MonoBehaviour
     [SerializeField]
     private float moveSpeed = 1f;
 
+    private void Start()
+    {
+        if (gameObject.name == "StartCube")
+        {
+            ColorManager.Reset();
+            GetComponent<Renderer>().material.color = ColorManager.GetNextColor();
+        }
+    }
 
     private void OnEnable()
     {
@@ -19,15 +27,13 @@ public class MovingCube : MonoBehaviour
 
         CurrentCube = this;
 
-        GetComponent<Renderer>().material.color = GetRandomColor();
-        transform.localScale = new Vector3(LastCube.transform.localScale.x, transform.localScale.y,
-            LastCube.transform.localScale.z);
-    }
+        GetComponent<Renderer>().material.color = ColorManager.GetNextColor();
 
-    private Color GetRandomColor()
-    {
-        return new Color(UnityEngine.Random.Range(0, 1f), UnityEngine.Random.Range(0, 1f),
-            UnityEngine.Random.Range(0, 1f));
+        transform.localScale = new Vector3(
+            LastCube.transform.localScale.x,
+            transform.localScale.y,
+            LastCube.transform.localScale.z
+        );
     }
 
     private float GetHangover()

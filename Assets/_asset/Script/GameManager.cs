@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
 
     [Header("UI")]
     [SerializeField] private GameObject buttonMenu;
+    [SerializeField] private GameObject Score;
 
     private bool gameStarted = false;
 
@@ -30,6 +31,8 @@ public class GameManager : MonoBehaviour
 
                 if (buttonMenu != null)
                     buttonMenu.SetActive(false);
+                if (Score != null)
+                    Score.SetActive(true);
             }
 
             // LOGIC STACK GAME

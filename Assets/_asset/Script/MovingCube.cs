@@ -9,7 +9,9 @@ public class MovingCube : MonoBehaviour
     public MoveDirection MoveDirection { get; set; }
 
     [SerializeField]
-    private float moveSpeed = 1f;
+    public float moveSpeed = 1f;
+
+
 
     private void Start()
     {
@@ -130,6 +132,7 @@ public class MovingCube : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(transform.position);
         if (MoveDirection == MoveDirection.Z)
             transform.position += transform.forward * Time.deltaTime * moveSpeed;
         else

@@ -7,6 +7,8 @@ public class ScoreText : MonoBehaviour
     private TextMeshProUGUI text;
     private bool hasStarted = false;
 
+    [SerializeField] private HighScoreText highScoreText;
+
     private void Start()
     {
         text = GetComponent<TextMeshProUGUI>();
@@ -30,5 +32,6 @@ public class ScoreText : MonoBehaviour
 
         score++;
         text.text = "" + score;
+        highScoreText.TrySetHighScore(score);
     }
 }

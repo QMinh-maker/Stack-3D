@@ -130,12 +130,12 @@ public class MovingCube : MonoBehaviour
 
 
     // Update is called once per frame
-    void Update()
-    {
-        Debug.Log(transform.position);
-        if (MoveDirection == MoveDirection.Z)
-            transform.position += transform.forward * Time.deltaTime * moveSpeed;
-        else
-            transform.position += transform.right * Time.deltaTime * moveSpeed;
-    }
+    //void Update()
+    //{
+    //    Debug.Log(transform.position);
+    //    if (MoveDirection == MoveDirection.Z)
+    //        transform.position += transform.forward * Time.deltaTime * moveSpeed;
+    //    else
+    //        transform.position += transform.right * Time.deltaTime * moveSpeed;
+    //}
 }

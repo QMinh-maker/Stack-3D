@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1727420241955714413}
   - component: {fileID: 1727420241955714402}
   - component: {fileID: 1727420241955714403}
+  - component: {fileID: 4137626053354838268}
   m_Layer: 0
   m_Name: MovingCube
   m_TagString: Untagged
@@ -111,3 +112,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+--- !u!114 &4137626053354838268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727420241955714400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00f12b509152d9c4295a8ebec78b6a88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  limitX: 2
+  limitZ: 2

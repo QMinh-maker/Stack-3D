@@ -55,7 +55,8 @@ public class MovingCube : MonoBehaviour
         if (Mathf.Abs(hangover) >= max)
         {
             LastCube = null;
-            CurrentCube = null;
+            CurrentCube = null;         
+
             SceneManager.LoadScene(0);
             return;
         }
@@ -72,8 +73,6 @@ public class MovingCube : MonoBehaviour
         }
 
         LastCube = this;
-
-
     }
 
 
@@ -127,15 +126,4 @@ public class MovingCube : MonoBehaviour
 
         Destroy(cube.gameObject, 1f);
     }
-
-
-    // Update is called once per frame
-    //void Update()
-    //{
-    //    Debug.Log(transform.position);
-    //    if (MoveDirection == MoveDirection.Z)
-    //        transform.position += transform.forward * Time.deltaTime * moveSpeed;
-    //    else
-    //        transform.position += transform.right * Time.deltaTime * moveSpeed;
-    //}
 }

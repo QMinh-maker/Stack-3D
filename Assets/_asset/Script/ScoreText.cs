@@ -23,12 +23,12 @@ public class ScoreText : MonoBehaviour
 
     private void GameManager_OnCubeSpawn()
     {
-        // Bỏ qua lần spawn đầu tiên (bắt đầu game)
-        if (!hasStarted)
-        {
-            hasStarted = true;
-            return;
-        }
+        //// Bỏ qua lần spawn đầu tiên (bắt đầu game)
+        //if (!hasStarted)
+        //{
+        //    hasStarted = true;
+        //    return;
+        //}
 
         score++;
         text.text = "" + score;

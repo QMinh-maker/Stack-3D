@@ -55,7 +55,8 @@ public class MovingCube : MonoBehaviour
         if (Mathf.Abs(hangover) >= max)
         {
             LastCube = null;
-            CurrentCube = null;         
+            CurrentCube = null;
+
 
             SceneManager.LoadScene(0);
             return;

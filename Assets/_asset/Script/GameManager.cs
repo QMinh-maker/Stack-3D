@@ -21,32 +21,47 @@ public class GameManager : MonoBehaviour
         spawners = FindObjectsOfType<CubeSpawner>();
     }
 
+    // ❌ KHÔNG dùng click chuột để start nữa
     private void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (!gameStarted) return;
+
+        if (Input.GetMouseButtonDown(0))
         {
-            // CLICK LẦN ĐẦU → ẨN BUTTON MENU
-            if (!gameStarted)
-            {
-                gameStarted = true;
-
-                if (buttonMenu != null)
-                    buttonMenu.SetActive(false);
-                    StartMenu.SetActive(false);
-                if (Score != null)
-                    Score.SetActive(true);
-            }
-
-            // LOGIC STACK GAME
             if (MovingCube.CurrentCube != null)
-            {
                 MovingCube.CurrentCube.Stop();
-            }
 
-            spawnerIndex = spawnerIndex == 0 ? 1 : 0;
-            currentSpawner = spawners[spawnerIndex];
-            currentSpawner.SpawnCube();
-            OnCubeSpawn();
+            SpawnNextCube();
         }
     }
+
+    // ✅ ĐƯỢC GỌI BỞI NÚT BẤM VÔ HÌNH
+    public void StartGame()
+    {
+        if (gameStarted) return;
+
+        gameStarted = true;
+
+        if (buttonMenu != null)
+            buttonMenu.SetActive(false);
+
+        if (StartMenu != null)
+            StartMenu.SetActive(false);
+
+        if (Score != null)
+            Score.SetActive(true);
+
+        SpawnNextCube(); // spawn cube đầu tiên
+    }
+
+    private void SpawnNextCube()
+    {
+        spawnerIndex = spawnerIndex == 0 ? 1 : 0;
+        currentSpawner = spawners[spawnerIndex];
+        currentSpawner.SpawnCube();
+        OnCubeSpawn();
+    }
 }
+
+
+

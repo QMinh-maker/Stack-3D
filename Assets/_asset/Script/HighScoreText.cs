@@ -8,12 +8,14 @@ public class HighScoreText : MonoBehaviour
     private TextMeshProUGUI text;
     private int highScore;
 
-    private void Start()
+    private void Awake()
     {
         text = GetComponent<TextMeshProUGUI>();
-
-        // Load điểm cao nhất đã lưu
         highScore = PlayerPrefs.GetInt(HIGH_SCORE_KEY, 0);
+    }
+
+    private void OnEnable()
+    {
         UpdateText();
     }
 
@@ -30,6 +32,7 @@ public class HighScoreText : MonoBehaviour
 
     private void UpdateText()
     {
-        text.text = " " + highScore;
+        if (text == null) return; // an toàn tuyệt đối
+        text.text = highScore.ToString();
     }
 }

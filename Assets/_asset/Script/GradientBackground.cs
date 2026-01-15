@@ -5,17 +5,51 @@ public class GradientBackground : MonoBehaviour
 {
     public Camera cam;
 
-    [Header("Colors")]
-    public Color topColor = new Color(0.3f, 0.7f, 0.65f);
-    public Color bottomColor = new Color(0.65f, 0.85f, 0.75f);
+    [Header("Gradient Palettes (Top Color)")]
+    [SerializeField] private Color[] topColors =
+    {
+        new Color(0.3f, 0.7f, 0.65f), // xanh ngọc
+        new Color(0.55f, 0.45f, 0.85f), // tím
+        new Color(0.2f, 0.6f, 0.9f), // xanh dương
+        new Color(0.9f, 0.4f, 0.4f), // đỏ
+        new Color(0.95f, 0.7f, 0.3f), // cam
+        new Color(0.3f, 0.8f, 0.4f), // xanh lá
+        new Color(0.9f, 0.3f, 0.7f), // hồng
+        new Color(0.6f, 0.6f, 0.6f)  // xám
+    };
+
+    [Header("Gradient Strength")]
+    [Range(0.1f, 0.5f)]
+    [SerializeField] private float lightenAmount = 0.25f;
+
+    private Color topColor;
+    private Color bottomColor;
+
+    private Material gradientMat;
 
     private void OnEnable()
     {
         if (cam == null)
             cam = Camera.main;
 
+        if (gradientMat == null)
+            gradientMat = new Material(Shader.Find("Hidden/Internal-Colored"));
+
+        PickRandomGradient();
+
         cam.clearFlags = CameraClearFlags.SolidColor;
         cam.backgroundColor = topColor;
+    }
+
+    private void PickRandomGradient()
+    {
+        topColor = topColors[Random.Range(0, topColors.Length)];
+        bottomColor = LightenColor(topColor, lightenAmount);
+    }
+
+    private Color LightenColor(Color color, float amount)
+    {
+        return Color.Lerp(color, Color.white, amount);
     }
 
     private void OnPreRender()
@@ -33,8 +67,7 @@ public class GradientBackground : MonoBehaviour
         GL.PushMatrix();
         GL.LoadOrtho();
 
-        Material mat = new Material(Shader.Find("Hidden/Internal-Colored"));
-        mat.SetPass(0);
+        gradientMat.SetPass(0);
 
         GL.Begin(GL.QUADS);
 

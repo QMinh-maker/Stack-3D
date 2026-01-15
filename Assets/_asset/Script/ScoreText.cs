@@ -5,7 +5,7 @@ public class ScoreText : MonoBehaviour
 {
     private int score;
     private TextMeshProUGUI text;
-    private bool hasStarted = false;
+    
 
     [SerializeField] private HighScoreText highScoreText;
 

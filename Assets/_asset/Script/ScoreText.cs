@@ -5,33 +5,37 @@ public class ScoreText : MonoBehaviour
 {
     private int score;
     private TextMeshProUGUI text;
-    
 
     [SerializeField] private HighScoreText highScoreText;
 
-    private void Start()
+    private void Awake()
     {
         text = GetComponent<TextMeshProUGUI>();
-        text.text = "0";
-        GameManager.OnCubeSpawn += GameManager_OnCubeSpawn;
     }
 
-    private void OnDestroy()
+    private void OnEnable()
     {
-        GameManager.OnCubeSpawn -= GameManager_OnCubeSpawn;
+        ResetScore();
+        GameManager.OnCubeSpawn += OnCubeSpawn;
     }
 
-    private void GameManager_OnCubeSpawn()
+    private void OnDisable()
     {
-        //// Bỏ qua lần spawn đầu tiên (bắt đầu game)
-        //if (!hasStarted)
-        //{
-        //    hasStarted = true;
-        //    return;
-        //}
+        GameManager.OnCubeSpawn -= OnCubeSpawn;
+    }
 
+    private void OnCubeSpawn()
+    {
         score++;
-        text.text = "" + score;
-        highScoreText.TrySetHighScore(score);
+        text.text = score.ToString();
+
+        if (highScoreText != null)
+            highScoreText.TrySetHighScore(score);
+    }
+
+    public void ResetScore()
+    {
+        score = 0;
+        text.text = "0";
     }
 }

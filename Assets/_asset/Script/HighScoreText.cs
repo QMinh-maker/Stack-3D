@@ -8,10 +8,12 @@ public class HighScoreText : MonoBehaviour
     private TextMeshProUGUI text;
     private int highScore;
 
+    [SerializeField] private GameObject newRecordText;
     private void Awake()
     {
         text = GetComponent<TextMeshProUGUI>();
-        highScore = PlayerPrefs.GetInt(HIGH_SCORE_KEY, 0);
+        LoadHighScore();
+        UpdateText();
     }
 
     private void OnEnable()
@@ -26,13 +28,23 @@ public class HighScoreText : MonoBehaviour
             highScore = currentScore;
             PlayerPrefs.SetInt(HIGH_SCORE_KEY, highScore);
             PlayerPrefs.Save();
+
+            if (newRecordText != null)
+                newRecordText.SetActive(true);
+
             UpdateText();
         }
+
+    }
+
+    private void LoadHighScore()
+    {
+        highScore = PlayerPrefs.GetInt(HIGH_SCORE_KEY, 0);
     }
 
     private void UpdateText()
     {
-        if (text == null) return; // an toàn tuyệt đối
+        if (text == null) return;
         text.text = highScore.ToString();
     }
 }

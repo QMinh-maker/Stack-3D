@@ -57,8 +57,7 @@ public class MovingCube : MonoBehaviour
             LastCube = null;
             CurrentCube = null;
 
-
-            SceneManager.LoadScene(0);
+            GameManager.Instance.GameOver();            
             return;
         }
 
@@ -123,8 +122,6 @@ public class MovingCube : MonoBehaviour
             cube.transform.position = new Vector3(fallingBlockZPosition, transform.position.y, transform.position.z);
         }
         cube.AddComponent<Rigidbody>();
-        cube.GetComponent<Renderer>().material.color = GetComponent<Renderer>().material.color;
-
-        Destroy(cube.gameObject, 1f);
+        cube.GetComponent<Renderer>().material.color = GetComponent<Renderer>().material.color;        
     }
 }

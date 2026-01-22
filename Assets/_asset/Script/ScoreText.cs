@@ -15,7 +15,6 @@ public class ScoreText : MonoBehaviour
 
     private void OnEnable()
     {
-        ResetScore();
         GameManager.OnCubeSpawn += OnCubeSpawn;
     }
 
@@ -24,18 +23,18 @@ public class ScoreText : MonoBehaviour
         GameManager.OnCubeSpawn -= OnCubeSpawn;
     }
 
+    public void ResetScore() // gọi khi Start Game
+    {
+        score = 0;
+        text.text = "0";
+
+        if (highScoreText != null)
+            highScoreText.ResetNewRecord();
+    }
+
     private void OnCubeSpawn()
     {
         score++;
         text.text = score.ToString();
-
-        if (highScoreText != null)
-            highScoreText.TrySetHighScore(score);
-    }
-
-    public void ResetScore()
-    {
-        score = 0;
-        text.text = "0";
     }
 }

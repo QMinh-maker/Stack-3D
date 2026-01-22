@@ -1,6 +1,7 @@
 ﻿using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -49,7 +50,7 @@ public class GameManager : MonoBehaviour
         if (gameStarted) return;
 
         gameStarted = true;
-        //newRecordText.SetActive(false);
+        
 
         if (MainMenu != null)
             MainMenu.SetActive(false);

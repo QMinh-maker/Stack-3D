@@ -9,17 +9,14 @@ public class HighScoreText : MonoBehaviour
     private int highScore;
 
     [SerializeField] private GameObject newRecordText;
+
     private void Awake()
     {
         text = GetComponent<TextMeshProUGUI>();
         LoadHighScore();
         UpdateText();
-    }
-
-    private void OnEnable()
-    {
-        UpdateText();
-    }
+        ResetNewRecord();
+    }  
 
     public void TrySetHighScore(int currentScore)
     {
@@ -29,12 +26,19 @@ public class HighScoreText : MonoBehaviour
             PlayerPrefs.SetInt(HIGH_SCORE_KEY, highScore);
             PlayerPrefs.Save();
 
-            if (newRecordText != null)
-                newRecordText.SetActive(true);
-
+            newRecordText.SetActive(true); // ✅ chỉ bật khi phá kỷ lục
             UpdateText();
         }
-
+    }
+    //private void Update()
+    //{
+    //    Debug.Log("Diem hien tai la " + highScore);
+    //}
+    public void ResetNewRecord()
+    {
+        if (newRecordText != null)
+            newRecordText.SetActive(false);
+        UpdateText();
     }
 
     private void LoadHighScore()
@@ -44,7 +48,6 @@ public class HighScoreText : MonoBehaviour
 
     private void UpdateText()
     {
-        if (text == null) return;
         text.text = highScore.ToString();
     }
 }
